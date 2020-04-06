@@ -31,6 +31,7 @@ Python is a dynamic language that uses spaces for structured blocks of code.  Py
 
 ## Key points of research
 * Virtualenv
+* [pipenv](https://github.com/pypa/pipenv)
 * List and dictionary comprehensions
 * Global interpreter lock
 * Lambdas
