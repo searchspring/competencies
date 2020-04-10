@@ -1,6 +1,6 @@
 # Competencies
 
-A project to help you manage your employees careers.
+A project to help you manage your employee's careers.
 
 Why - your employees care deeply about their career.  They want to learn, they want to contribute to the company and they want to see a direct path to progression and increase in pay.
 This tool allows you to accomplish all of that.
