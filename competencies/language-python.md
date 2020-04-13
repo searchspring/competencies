@@ -14,7 +14,7 @@ Python is a dynamic language that uses spaces for structured blocks of code.  Py
 ## Key points of research
 * Differences between Python 2 and 3
 * Pip (and other package managers)
-* Third party libaries
+* Third party libaries such as `requests`, `BeautifulSoup`, `pandas`, `numpy`, etc...
 
 # Competency - Language Python - Level 2
 
