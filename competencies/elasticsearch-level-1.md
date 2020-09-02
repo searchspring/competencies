@@ -8,20 +8,26 @@ Truly, there is much, much more to Elasticsearch in terms of features and applic
 
 - You can describe what a node is, as well as the roles it might serve in a cluster.
 
-- You can describe an index, both in terms of configuration (types, mappings, etc.) and composition (shards, documents).
+- You can describe an index, both in terms of configuration (types, mappings, etc.) and composition (shards, replicas, etc.).
 
 - You know how to interact with a cluster via the CLI. You are able to perform status checks as well as search queries, with a comprehensive understanding of the responses from both.
+
+- You can create an index, load it with documents, and query them.
 
 - You can describe quorum based decision making, where it is used in ES, and the ubiquitous arithmetic formula associated with it.
 
 - You can fill in the blank: "You know, for _____."
 
-- You can describe why ES is so commonly used in e-commerce search.
+- You can discuss why you believe ES is so commonly used in e-commerce search.
+
+- You can describe when it is better to use an RDB over ES.
 
 ## How do you improve it?
 
-- Play with the API in a sandbox and RTFM!
+- Play with the API in a sandbox and [read the manual](https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html)! (Be sure to look at the version with which you are interacting, but don't neglect new features, either)
 
-- Read any of the numerous blogs and articles which have been published surrounding the fundamentals of ES.
+- Read any of the numerous blogs and articles which have been published surrounding the fundamentals of ES and the neat ways it is being used.
+
+- Struggle through building a small cluster and using it for some interesting use cases like [the ELK stack](https://logz.io/learn/complete-guide-elk-stack/), autocomplete/spell-correction using [Suggesters](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-suggesters.html), or [metrics analytics](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-suggesters.html).
 
 - See Elasticsearch Level 2 (TBD)
