@@ -22,3 +22,9 @@ func TestProcessInherited(t *testing.T) {
 	log.Println(result)
 	require.Equal(t, "#original \n##Skills\n<skills>\nbreakdancing\n</skills>\n<skills>\nfigure skating\n</skills>\n<skills>\nkung fu\n</skills>\n   a", result)
 }
+
+func TestCreateGroup(t *testing.T) {
+	result, err := createGroup("10", "something")
+	require.NoError(t, err)
+	require.Equal(t, "<table class=\"group mt-4\"><tr><td valign=\"top\"><span class=\"group-heading text-sm pr-2 whitespace-no-wrap\">something (10 of)</span></td><td class=\"group\" valign=\"top\"> </td></tr></table>", result)
+}
