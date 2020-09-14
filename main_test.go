@@ -19,7 +19,6 @@ func TestProcessInherited(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	log.Println(result)
 	require.Equal(t, "#original \n##Skills\n<skills>\nbreakdancing\n</skills>\n<skills>\nfigure skating\n</skills>\n<skills>\nkung fu\n</skills>\n   a", result)
 }
 
