@@ -9,6 +9,7 @@ GitHub Actions are an API for cause and effect on GitHub: orchestrate any workfl
 * You know how to cache dependencies using `actions/cache@v2` in order to speed up workflows.
 * You know how to add conditional steps, such as `if: github.event.pull_request.draft == false`, to a job.
 * You know how to use `upload-artifact` and `download-artifact` actions in order to persist and share data across workflows.
+* You know how to add actions from the GitHub Marketplace to your workflow.
 * You know how to create workflow templates and use templates created by others.
 * You are aware of the different mechanisms for triggering a GitHub Actions workflow and the use cases of each.
 * You are aware of the difference between workflows, events, jobs, steps, actions, and runners.
