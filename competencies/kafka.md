@@ -22,8 +22,6 @@ _Source: https://kafka.apache.org/_
 
 * You know what topics, partitions and brokers are.
 
-* You know what ZooKeeper does.
-
 * You know what leaders and followers are.
 
 * You can use at least one Kafka client.
