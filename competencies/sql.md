@@ -6,7 +6,7 @@ Wikipedia: [https://en.wikipedia.org/wiki/SQL](https://en.wikipedia.org/wiki/SQL
 
 ## How do you prove it?
 
-You can demonstrate that you can create a set of sql commands to that will create a simple database and Create/Reduce/Update/Delete (CRUD) data.
+You can demonstrate that you can create a set of sql commands to create a simple database and Create/Reduce/Update/Delete (CRUD) data.
 
 You can explain the difference between MySQL and SQL.
 
