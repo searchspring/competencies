@@ -16,7 +16,9 @@ This competency requires:
 
 * Understand how to add competencies to the various roles.
 
-* Have written at least 1 competency.
+* Have written at least 3 competencies.
+
+* Have created at least 3 meaningful PRs to existing competencies.
 
 ## How do you improve it?
 
