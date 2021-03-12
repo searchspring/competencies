@@ -10,6 +10,8 @@ Common components are exported and imported so that you are not writing duplicat
 
 ## How do you prove it?
 
+You can build a website in React
+
 You can explain the difference between a class component & a functional component
 
 You can explain the difference between props, state, and children
