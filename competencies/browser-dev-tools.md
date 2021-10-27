@@ -57,6 +57,8 @@ You can use dev tools to find memory issues that affect page performance, includ
 
 Stay up to date with the latest dev tools changes to your browser.
 
+Build a simple web application and make some improvements based on memory profiling.
+
 Download some extensions:  
 https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd?hl=en-US
 https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en-US
