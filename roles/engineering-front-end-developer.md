@@ -26,18 +26,22 @@ You enjoy working with others and helping mentor developers at all skill levels.
 
 <skills>
 Language Javascript Node
+Language Typescript
 Front End
 Git
 GitHub
 Coding
+Regex
 QA Automation
+Testing
 Cypress
+Webpack
 Feature Flags
+Browser Dev Tools
 2 of UI Framework
 1 of IDE
 Research
 Deployments
-Testing
 Linux
 Fire Handling
 Customer Empathy
