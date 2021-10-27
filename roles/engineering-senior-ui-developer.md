@@ -49,7 +49,7 @@ Responsive design
 Modern CSS flexbox/grid
 Human-computer interaction
 UI patterns
-Browser DevTools
+Browser Dev Tools
 </skills>
 
 <br>
