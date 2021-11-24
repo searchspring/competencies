@@ -27,8 +27,6 @@ You enjoy working with others and helping mentor developers at all skill levels.
 
 <skills>
 Coding
-Git
-GitHub
 Front End
 Documentation
 Testing
