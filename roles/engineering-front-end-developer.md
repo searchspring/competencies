@@ -28,10 +28,7 @@ You enjoy working with others and helping mentor developers at all skill levels.
 Language Javascript Node
 Language Typescript
 Front End
-Git
-GitHub
 Coding
-Regex
 QA Automation
 Testing
 Cypress
@@ -40,7 +37,6 @@ Feature Flags
 Browser Dev Tools
 2 of UI Framework
 1 of IDE
-Research
 Deployments
 Linux
 Fire Handling
@@ -48,9 +44,7 @@ Customer Empathy
 Part of Successful Projects:1
 </skills>
 
-<br>
-
-<inherit doc="base.md"/>
+<inherit doc="engineering-base.md"/>
 
 <searchspring-overview.snippet/>
 

@@ -27,7 +27,6 @@ You enjoy working with others and helping mentor developers at all skill levels.
 
 <skills>
 Coding
-Research
 Git
 GitHub
 Front End
@@ -54,7 +53,7 @@ Browser Dev Tools
 
 <br>
 
-<inherit doc="base.md"/>
+<inherit doc="engineering-base.md"/>
 
 <searchspring-overview.snippet/>
 
