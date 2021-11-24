@@ -6,9 +6,13 @@ import (
 	"os"
 	"regexp"
 	"strings"
-
 	"github.com/russross/blackfriday"
 )
+
+type skillSet struct {
+	name string
+	skills string
+}
 
 func main() {
 	files, err := ioutil.ReadDir("./roles")
@@ -206,39 +210,40 @@ func processSnippets(text string) (string, error) {
 }
 
 func processInherits(text string, skipBase bool) (string, error) {
-
 	regex := regexp.MustCompile(`<inherit doc="([^"]+)"/>`)
 	match := regex.FindStringSubmatch(text)
 	if len(match) > 0 {
 		if match[1] == "base.md" && skipBase {
 			return strings.ReplaceAll(text, match[0], ""), nil
 		}
-		skillsGroups := []string{}
-		err := processInheritsWithGroups(match[1], skipBase, &skillsGroups)
+		skillSets := []skillSet{}
+		err := processInheritsWithGroups(match[1], skipBase, &skillSets)
 		if err != nil {
 			return "", err
 		}
-		text = strings.ReplaceAll(text, match[0], flatten(skillsGroups))
+		text = strings.ReplaceAll(text, match[0], flatten(skillSets))
 	}
 	return strings.TrimSpace(text), nil
 }
 
-func flatten(skillsGroups []string) string {
+func flatten(skillSets []skillSet) string {
 	result := ""
-	for _, skillGroup := range skillsGroups {
-		result += skillGroup + "\n"
+	for _, skillSet := range skillSets {
+		result += `<h3 class="m-0 px-2">` + skillSet.name + ` skills</h3>` + "\n"
+		result += skillSet.skills + "\n"
 	}
 	return strings.TrimSpace(result)
 }
 
-func processInheritsWithGroups(filename string, skipBase bool, skillsGroups *[]string) error {
+func processInheritsWithGroups(filename string, skipBase bool, skillSets *[]skillSet) error {
 	contents, err := ioutil.ReadFile("roles/" + filename)
 	if err != nil {
 		return err
 	}
 	text := string(contents)
+	title := getTitle(text)
 	skills := processSkills(text)
-	*skillsGroups = append(*skillsGroups, skills)
+	*skillSets = append(*skillSets, skillSet{title, skills})
 
 	regex := regexp.MustCompile(`<inherit doc="([^"]+)"/>`)
 	match := regex.FindStringSubmatch(text)
@@ -246,7 +251,7 @@ func processInheritsWithGroups(filename string, skipBase bool, skillsGroups *[]s
 		if match[1] == "base.md" && skipBase {
 			return nil
 		}
-		err = processInheritsWithGroups(match[1], skipBase, skillsGroups)
+		err = processInheritsWithGroups(match[1], skipBase, skillSets)
 		if err != nil {
 			return err
 		}
