@@ -6,6 +6,7 @@ Encoding is important to understand but generally easy to deal with once you're 
 
 You can explain what a code point is.  
 You can articulate the difference between latin-1, UTF-8 and UTF-16
+For each of the languages you use, you can explain how they deal with encoding.
 
 
 ## How do you improve it?
