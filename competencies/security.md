@@ -21,3 +21,5 @@ You question unescorted people who you don't recognise.
 ## How do you improve it?
 
 Do the PaperDuty security training: https://sudo.pagerduty.com/for_everyone/
+
+Complete [OWASP WebGoat](https://owasp.org/www-project-webgoat/) lessons
