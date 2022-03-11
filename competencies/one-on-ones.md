@@ -2,7 +2,7 @@
 
 A key facet of working and leading a team is performing one on one check-ins with
 
-members of your team. Typically this involves sitting down regularly (weekly)
+members of your team. This typically involves sitting down regularly (weekly)
 
 with each person to talk about potential issues, discuss upcoming work, or
 
@@ -13,13 +13,15 @@ that communication is flowing in and out of your team adequately.
 ## How do you prove it?
 
 * Scheduled and in your calendar weekly.
-
 * You can talk through 2 issues in the past that have been surfaced in one on ones that you have resolved before they became a disaster.
-
-* You have a 6 month plan to help them in their careers which you reference in your one on ones
-
+* You are able to express each team member's goals and what motivates them.
+* You have a 6-month plan to help them in their careers which you reference in your one on ones.
+* You have established trust with reports. They know it is safe to speak openly with you about their struggles, desires, concerns, etc.
+* You avoid asking questions focused on the business or ongoing projects, and you are responsive when asked about such topics.
+* You ask open-ended questions about the person and allow them to direct the conversation.
+* You can recount a situation where you provided constructive feedback to a team member, and then you discussed actionable proceedings together. 
+* You can recount a situation where you inquired about feedback in return, and then you discussed actionable proceedings together.
 * You get good scores in your manager review.
-
 * You have done 2 one on ones with every member of your team.
 
 ## How do you improve it?
