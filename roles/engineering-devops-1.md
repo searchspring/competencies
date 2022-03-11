@@ -1,7 +1,7 @@
-# Engineering - Junior Azure DevOps
+# Engineering - DevOps Engineer 1
 <welcome.snippet/>
 
-## What it's like to be a DevOps Engineer
+## What it's like to be DevOps Engineer 1
 DevOps is the marriage of development and systems operations. Modern systems administration has been largely codified in software these days and requires in equal parts an understanding of systems architecture and software development. You must learn to understand how to administer systems and write software to do so. You must learn to pick up new languages quickly. You must also be able to rapidly learn new technologies as you are constantly being required to implement and administer new systems.
 
 The job also requires a lot of on call availability. You are the first line of defense, keeping systems available and dealing with unforeseen issues. This job will impact your social life, and requires effort to learn to maintain a work/life balance. This challenge is fulfilling but not enjoyed by everyone.  If you are the type of person who needs to go incommunicado while not at work, this role is not for you.
@@ -22,9 +22,9 @@ You have a strong drive to collaborate with others. You possess the ability to e
 ## Skills that are important to this role
 
 <skills>
-Azure
+Linux
 Networking
-Programming 
+Programming
 Security
 Trust
 </skills>

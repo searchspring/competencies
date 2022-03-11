@@ -1,7 +1,7 @@
-# Engineering - Front End Developer
+# Engineering - Front-End Developer 2
 <welcome.snippet/>
 
-## What it's like to be a Front End Developer
+## What it's like to be Front-End Developer 2
 In this role, you will build software that utilizes technologies such as Javascript, React and Angular. Specifically, you, along with your team, will be developing our customer portal system, our client side interfaces, and client side libraries that act as a front end for our search API. There are an abundance of challenges, from building user interfaces for robust data configuration, to reporting visualizations, to internal tools that help every other employee in the company get the job done. 
 
 As a developer, you spend the first few minutes of the day, reviewing your inbox, asana tasks, outstanding code reviews to make sure you’re not blocking anyone on your team.

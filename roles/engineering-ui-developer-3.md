@@ -1,7 +1,7 @@
-# Engineering - Senior UI Developer
+# Engineering - UI Developer 3
 <welcome.snippet/>
 
-## What it's like to be a Senior UI Developer
+## What it's like to be UI Developer 3
 
 In this role, you will build and design software that leads to seamless interaction between humans and computers by utilizing technologies such as HTML, CSS, Javascript, front-end frameworks and design software, to concepts such as UI, UX design and patterns. You will be working with a small-sized team on our customer portal system, our client-side interfaces, and client-side libraries that act as a front end for our search API. There are an abundance of challenges, from high level sketches to architecture feasibility, to diving into the code of various front end frameworks.
 
