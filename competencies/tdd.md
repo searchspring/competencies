@@ -8,7 +8,7 @@ Here is Uncle Bob talking about why - https://www.youtube.com/watch?v=GvAzrC6-sp
 ## How do you prove it?
 
 You have a code base you authored that has 80%+ code coverage.
-You can describe three situtaions underwhich unit testing becomes unreliable.
+You can describe three situtaions under which unit testing becomes unreliable.
 You can demonstrate the use of a visual code coverage tool and what the different coverage types mean.
 You can describe what the process of TDD's Red Green Refactor cycle involves.
 You can articulate good practices for assertions in your tests.
