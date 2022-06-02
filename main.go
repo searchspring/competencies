@@ -379,10 +379,7 @@ func camel(group string, competency string) string {
 func checkCompetency(file string) bool {
 	filename := "competencies/" + cleanFile(file)
 	_, err := os.Stat(filename)
-	if os.IsNotExist(err) {
-		return false
-	}
-	return true
+	return !os.IsNotExist(err)
 }
 
 func cleanFile(file string) string {
