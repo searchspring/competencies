@@ -5,7 +5,7 @@
 
 In this role, you will build and design software that leads to seamless interaction between humans and computers by utilizing technologies such as HTML, CSS, Javascript, front-end frameworks and design software, to concepts such as UI, UX design and patterns. You will be working with a small-sized team on our customer portal system, our client-side interfaces, and client-side libraries that act as a front end for our search API. There are an abundance of challenges, from high level sketches to architecture feasibility, to diving into the code of various front end frameworks.
 
-As a UI developer, you spend the first few minutes of the day, reviewing your inbox, asana tasks, outstanding code reviews to make sure you’re not blocking anyone on your team.
+As a UI developer, you spend the first few minutes of the day, reviewing your inbox, asana tasks, outstanding code reviews to make sure you're not blocking anyone on your team.
 
 You set aside time each week to learn about new technologies and help other programmers get better, though pair programming and knowledge sharing.
 
