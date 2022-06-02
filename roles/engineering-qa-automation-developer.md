@@ -36,7 +36,7 @@ Part of Successful Projects:2
 5 of Technical Breadth
 </skills>
 
-<inherit doc="engineering-developer.md"/>
+<inherit doc="engineering-developer-2.md"/>
 
 <searchspring-overview.snippet/>
 
