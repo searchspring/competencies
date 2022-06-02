@@ -370,12 +370,6 @@ func makeLevel(level string) string {
 	return ": level " + level
 }
 
-func camel(group string, competency string) string {
-	competency = strings.ReplaceAll(competency, "-", " ")
-	competency = strings.TrimSpace(competency[len(group) : len(competency)-3])
-	return competency
-}
-
 func checkCompetency(file string) bool {
 	filename := "competencies/" + cleanFile(file)
 	_, err := os.Stat(filename)
