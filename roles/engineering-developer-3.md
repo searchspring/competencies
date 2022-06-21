@@ -22,6 +22,7 @@ You enjoy working with others and helping mentor developers at all skill levels.
 ## Skills that are important to this role
 
 <skills>
+Writing Competencies
 Diagrams
 Documentation
 Presentations
