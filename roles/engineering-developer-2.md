@@ -50,7 +50,7 @@ Web API Service Worker
 Web API Web Worker
 1 of Language
 1 of IDE
-1 of DB
+1 of DB:1
 </skills>
 
 <inherit doc="engineering-base.md"/>
