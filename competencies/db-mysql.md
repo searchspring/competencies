@@ -38,3 +38,5 @@ Wikipedia:
 - You understand and can explain how the MySQL query cache works.
 - You explain the differences between INNODB and Myisam storage engines, and the differences between row locking and table locking.
 - You understand what information is in the INFORMATION_SCHEMA and how to query it.
+
+## How do you improve it?

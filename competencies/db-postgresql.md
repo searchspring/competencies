@@ -23,3 +23,5 @@ Postgresql is a popular relational database (RDBMS) emphasizing extensibility an
 - You can read a Postgresql EXPLAIN ANALYZE.
 - You can use pg_dump to create SQL dumps.
 - You can import a SQL dump using pg_restore.
+
+## How do you improve it?

@@ -21,3 +21,5 @@
 - You can read an EXPLAIN and evaluate query performance with it.
 - You understand how to optimize table design and query performance with sort keys, distribution styles, and compression.
 - You can use the Redshift dashboard to do cluster management and run and analyze queries.
+
+## How do you improve it?
