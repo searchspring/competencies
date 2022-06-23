@@ -4,12 +4,14 @@ import (
 	"fmt"
 	"io/ioutil"
 	"log"
-	"regexp"
 	"sort"
 	"strconv"
 	"strings"
+
+	"github.com/codeallthethingz/competencies/patterns"
 )
 
+// TODO find a better home
 const (
 	MarkdownExtension string = ".md"
 	HtmlExtension     string = ".html"
@@ -17,33 +19,34 @@ const (
 	DocsDirPath       string = "./docs"
 )
 
-var (
-	groupPattern    *regexp.Regexp = regexp.MustCompile(`^([0-9]+) of (.+)$`)
-	inheritsPattern *regexp.Regexp = regexp.MustCompile(`<inherit doc="([^"]+)"/>`)
-	skillsPattern   *regexp.Regexp = regexp.MustCompile(`(?s)<skills>([^<]+)</skills>`)
-)
-
+// TODO evaluate what should and shouldn't be private
 type Role struct {
 	Title     string
 	Filename  string
+	Markdown  string
 	Skills    map[string]Skill
 	Groups    map[string]Group
 	Inherited map[string]*Role
 }
 
 func New(filename string) (*Role, error) {
+	return new(filename, false)
+}
+
+func new(filename string, inherited bool) (*Role, error) {
 	role := &Role{
-		Filename: filename,
-		Skills:   map[string]Skill{},
-		Groups:   map[string]Group{},
+		Filename:  filename,
+		Skills:    map[string]Skill{},
+		Groups:    map[string]Group{},
+		Inherited: map[string]*Role{},
 	}
-	if err := role.build(); err != nil {
+	if err := role.build(inherited); err != nil {
 		return nil, err
 	}
 	return role, nil
 }
 
-func (role Role) getSkills() []Skill {
+func (role Role) GetSkills() []Skill {
 	skills := []Skill{}
 	for _, skill := range role.Skills {
 		skills = append(skills, skill)
@@ -57,7 +60,7 @@ func (role Role) getSkills() []Skill {
 	return skills
 }
 
-func (role Role) getGroups() []Group {
+func (role Role) GetGroups() []Group {
 	groups := []Group{}
 	for _, group := range role.Groups {
 		groups = append(groups, group)
@@ -71,19 +74,37 @@ func (role Role) getGroups() []Group {
 	return groups
 }
 
-func (role *Role) build() error {
-	contents, err := readRoleFile(role.Filename)
+func (role Role) GetInheritedRoles() []*Role {
+	roles := []*Role{}
+	for _, inheritedRole := range role.Inherited {
+		roles = append(roles, inheritedRole)
+	}
+	sort.SliceStable(roles, func(i, j int) bool {
+		lenI := len(roles[i].GetSkills()) + len(roles[i].GetGroups())
+		lenJ := len(roles[j].GetSkills()) + len(roles[j].GetGroups())
+		return lenI > lenJ
+	})
+	return roles
+}
+
+func (role *Role) build(inherited bool) error {
+	contents, err := ReadRoleFile(role.Filename)
 	if err != nil {
 		return err
 	}
 
 	role.Title = getTitle(contents)
-
+	role.Markdown = contents
 	skillStrings := readSkillsList(contents)
+
 	role.addSkills(skillStrings)
 	role.addSkillGroups(skillStrings)
-	if err := role.addInherited(role.Filename); err != nil {
-		return err
+	if !inherited {
+		// recursively build inherited roles
+		if err := role.addInherited(role.Filename); err != nil {
+			return err
+		}
+		role.dedupeSkillsAndGroups()
 	}
 
 	return nil
@@ -91,7 +112,7 @@ func (role *Role) build() error {
 
 func (role *Role) addSkills(skillStrings []string) {
 	for _, skillString := range skillStrings {
-		if groupPattern.MatchString(skillString) {
+		if patterns.Group.MatchString(skillString) {
 			continue
 		}
 
@@ -114,7 +135,7 @@ func (role *Role) addSkills(skillStrings []string) {
 
 func (role *Role) addSkillGroups(skillStrings []string) {
 	for _, skillString := range skillStrings {
-		groupMatches := groupPattern.FindStringSubmatch(skillString)
+		groupMatches := patterns.Group.FindStringSubmatch(skillString)
 		if len(groupMatches) <= 1 {
 			continue
 		}
@@ -143,25 +164,53 @@ func (role *Role) addSkillGroups(skillStrings []string) {
 }
 
 func (role *Role) addInherited(filename string) error {
-	contents, err := readRoleFile(filename)
+	log.Println("inheriting from", filename)
+	contents, err := ReadRoleFile(filename)
 	if err != nil {
 		return err
 	}
 
-	matches := inheritsPattern.FindAllStringSubmatch(contents, -1)
+	matches := patterns.Inherits.FindAllStringSubmatch(contents, -1)
 	for _, match := range matches {
 		if len(match) != 2 {
 			continue
 		}
 		inheritedFilename := match[1]
-		log.Println(inheritedFilename)
-		// TODO: this but avoid infinite recursion
+		if _, ok := role.Inherited[inheritedFilename]; !ok {
+			// create a new inherited role and add it to the main parent role's inherited map
+			// calling new with inherited=true will skip calling addInherited on the recursed
+			// build call.
+			inheritedRole, err := new(inheritedFilename, true)
+			if err != nil {
+				return err
+			}
+			role.Inherited[inheritedFilename] = inheritedRole
+			// recursively inherit into main parent role
+			if err := role.addInherited(inheritedFilename); err != nil {
+				return err
+			}
+		}
 	}
 
 	return nil
 }
 
-func readRoleFile(filename string) (string, error) {
+func (role *Role) dedupeSkillsAndGroups() {
+	for _, inheritedRole := range role.Inherited {
+		for key := range inheritedRole.Skills {
+			if _, ok := role.Skills[key]; ok {
+				delete(inheritedRole.Skills, key)
+			}
+		}
+		for key := range inheritedRole.Groups {
+			if _, ok := role.Groups[key]; ok {
+				delete(inheritedRole.Groups, key)
+			}
+		}
+	}
+}
+
+func ReadRoleFile(filename string) (string, error) {
 	data, err := ioutil.ReadFile(fmt.Sprintf("%s/%s", RolesDirPath, filename))
 	if err != nil {
 		return "", err
@@ -175,7 +224,7 @@ func getTitle(contents string) string {
 
 func readSkillsList(contents string) []string {
 	skills := []string{}
-	match := skillsPattern.FindStringSubmatch(string(contents))
+	match := patterns.Skills.FindStringSubmatch(string(contents))
 	for _, rawSkillStr := range strings.Split(match[1], "\n") {
 		cleanSkillStr := strings.TrimSpace(rawSkillStr)
 		if cleanSkillStr == "" {
