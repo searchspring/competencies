@@ -1,4 +1,4 @@
-# Competency - Miro
+# Miro
 
 We use Miro as our shared whiteboarding tool.  It does much more than that though.
 

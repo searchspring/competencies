@@ -1,4 +1,4 @@
-# Web API - Web Worker
+# Web API: Web Worker
 >Web Workers make it possible to run a script operation in a background thread separate from the main execution thread of a web application. - [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API)
 
 ## How do you prove it?

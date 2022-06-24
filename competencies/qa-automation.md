@@ -1,4 +1,4 @@
-# Competency - QA Automation
+# QA Automation
 
 Quality Assurance (QA) Automation, is structures to automatically run test suites. The speed and coverage of these tests affect the confidence developers have in the functionality of the changed code. 
 

@@ -1,4 +1,4 @@
-# Competency - Regex
+# Regex
 https://xkcd.com/208/
 
 ## How do you prove it?

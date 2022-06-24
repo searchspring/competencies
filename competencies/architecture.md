@@ -1,4 +1,4 @@
-# Competency - Architecture
+# Architecture
 
 Being able to architect things so that they stay up and remain functional long into the future.
 

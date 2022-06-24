@@ -1,4 +1,4 @@
-# Competency - Office Management
+# Office Management
 
 Office management is the day to day running of the offices in Victoria and San Francisco. From making sure the garbage is taken out to ordering snacks and lunches. 
 

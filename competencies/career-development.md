@@ -1,4 +1,4 @@
-# Competency - Career Development
+# Career Development
 
 People want to get better at their chosen career and its your job as their manager to help them.  
 

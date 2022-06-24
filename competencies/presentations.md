@@ -1,4 +1,4 @@
-# Competency - Presentations
+# Presentations
 
 How to give good presentations
 

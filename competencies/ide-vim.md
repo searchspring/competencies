@@ -1,4 +1,4 @@
-# Competency - IDE - Vim
+# IDE: Vim
 
 Vim is a command line text editor with a wealth of plugins to do just about anything.
 

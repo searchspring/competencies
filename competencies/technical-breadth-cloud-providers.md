@@ -1,4 +1,4 @@
-# Competency - Technical Breadth Cloud Providers
+# Technical Breadth: Cloud Providers
 
 Main cloud providers are AWS, GCP and Azure. 
 

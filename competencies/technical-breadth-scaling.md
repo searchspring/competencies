@@ -1,4 +1,4 @@
-# Competency - Technical Breadth Scaling
+# Technical Breadth: Scaling
 
 Scaling your software is critical up front thinking.
 

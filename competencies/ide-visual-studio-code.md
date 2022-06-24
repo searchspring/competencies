@@ -1,4 +1,4 @@
-# Competency - IDE - Visual Studio Code
+# IDE: Visual Studio Code
 
 An IDE from microsoft that is surprisingly awesome.
 

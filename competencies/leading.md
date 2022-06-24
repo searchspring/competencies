@@ -1,4 +1,4 @@
-# Competency - Leading
+# Leading
 Leaders lift up those around them, providing resources and direction to overcome obstacles.  They value the team and are the first to step up when there is a challenge that needs to be addressed.  They keep the sense of safety and trust in place between all members of the team.
 
 Leading is about setting a good example, always doing your best to model proactive and productive interactions.

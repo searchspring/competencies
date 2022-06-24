@@ -1,4 +1,4 @@
-# Competency - Webpack
+# Webpack
 
 Webpack is a popular bundling tool that lets you bundle your JavaScript applications. It can be extended to support many different assets such as images, fonts and stylesheets.
 

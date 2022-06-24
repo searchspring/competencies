@@ -1,4 +1,4 @@
-# Competency - Calendar 
+# Calendar 
 
 A simple idea with many complex gotchas and company specific knowledge
 

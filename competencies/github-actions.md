@@ -1,4 +1,4 @@
-# Competency - GitHub Actions
+# GitHub Actions
 
 GitHub Actions are an API for cause and effect on GitHub: orchestrate any workflow, based on any event, while GitHub manages the execution, provides rich feedback, and secures every step along the way. With GitHub Actions, workflows and steps are just code in a repository, so you can create, share, reuse, and fork your software development practices.
 

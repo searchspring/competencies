@@ -1,4 +1,4 @@
-# Competency - Elasticsearch - Level 1
+# Elasticsearch - Level 1
 
 Elasticsearch is a powerful tool which is essential for all search engineers in today's climate. Many online retailers and search providers have turned to ES as the core of their search platform. While sometimes treated as a NoSQL database, Elasticsearch is better described as a document store and search enginge, as there are a number of mechanisms and measures present in, say, an SQL RDB that ES is lazy about in the interest of performance. At it's core, Elasticsearch runs Lucene to track and manage data in the form of documents; the rest of ES might be regarded in a simplified sense as a Java wrapper which co-ordinates distributed instances of that data, accessible via a well documented, RESTful API.  
 

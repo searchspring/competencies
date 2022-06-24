@@ -1,4 +1,4 @@
-# Competency - Competency based role definition competency
+# Competency based role definition competency
 
 Though this is a bit "Being John Malkovich" this is about knowing and understanding why competency based role definitions are useful and how to create them and maintain them.
 

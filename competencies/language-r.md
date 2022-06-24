@@ -1,4 +1,4 @@
-# Competency - Language R
+# Language: R
 
 R is an open source and free programming environment for statistical computing, data science, and graphics. It is a GNU project which is similar to the S language and environment which was developed at Bell Laboratories (formerly AT&T, now Lucent Technologies) by John Chambers and colleagues. R can be considered as a different implementation of S. There are some important differences, but much code written for S runs unaltered under R.
 

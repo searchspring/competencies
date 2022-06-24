@@ -1,4 +1,4 @@
-# Competency - Interviewing
+# Interviewing
 
 Interviewing is the act of meeting a potential candidate with the intention of evaluating their fit for a potential opening or opportunity within the company.
 

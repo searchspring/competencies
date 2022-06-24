@@ -1,4 +1,4 @@
-# Competency - Kafka
+# Kafka
 
 Kafka combines three key capabilities so you can implement your use cases for event streaming end-to-end with a single
 battle-tested solution:

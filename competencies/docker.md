@@ -1,4 +1,4 @@
-# Competency - Docker
+# Docker
 
 Most of our systems are deployed in docker containers.  
 

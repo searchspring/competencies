@@ -1,4 +1,4 @@
-# Competency - Computers
+# Computers
 
 We use computers!  You should know how to use one.
 

@@ -1,4 +1,4 @@
-# Competency - Fire Triaging
+# Fire Triaging
 
 Be part of the monitoring team that triages production emergencies.
 

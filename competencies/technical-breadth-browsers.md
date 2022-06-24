@@ -1,4 +1,4 @@
-# Competency - Breadth of Browsers
+# Technical Breadth: Browsers
 
 This skill is the understanding what it takes to know how to build web apps that will function across a swath of browser types.  
 

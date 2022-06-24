@@ -1,4 +1,4 @@
-# Competency - Benefits Management
+# Benefits Management
 
 We use Humi for Canadian benefits management and Gusto for US benefits management.
 
@@ -20,7 +20,7 @@ You have an insider knowledge of how to navigate the complexities of both US & C
 
  
 
-# Competency - Benefits Management Advanced
+# Benefits Management Advanced
 
 ## How do you prove it?
 

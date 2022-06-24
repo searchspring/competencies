@@ -1,4 +1,4 @@
-# Competency - Datadog
+# Datadog
 
 Datadog is a monitoring platform used both for tracing of work done inside an application as well as metrics pushed by infrastructure, CI systems and more.
 

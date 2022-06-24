@@ -1,4 +1,4 @@
-# Competency - Security
+# Security
 
 Security is something we all need to be aware of and to help educate for.
 

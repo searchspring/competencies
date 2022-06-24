@@ -1,4 +1,4 @@
-# Competency - Writing Competencies
+# Writing Competencies
 
 Write competencies for various skills & talents useful to you and your fellow team members.
 

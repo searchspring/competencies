@@ -1,4 +1,4 @@
-# Competency - Design Tool Adobe XD
+# Design Tool: Adobe XD
 
 [Adobe XD](https://www.adobe.com/ca/products/xd.html) is a free interface design application used to build fully-fledged illustration, as well as prototyping capabilities
 

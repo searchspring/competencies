@@ -1,4 +1,4 @@
-# Competency - CSS Framework Bootstrap
+# CSS Framework: Bootstrap
 
 [Bootstrap](https://getbootstrap.com/) is the most popular css framework. It is open-sourced and maintained by Twitter. It is used to quickly prototype a website that is responsive and well designed out the box. It has a strong emphasis on being a mobile-first framework. It also has extensive prebuilt components, and powerful plugins built on jQuery.
 

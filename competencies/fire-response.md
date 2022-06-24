@@ -1,4 +1,4 @@
-# Competency - Fire Response
+# Fire Response
 
 Be part of the response team that responds to production emergencies.
 

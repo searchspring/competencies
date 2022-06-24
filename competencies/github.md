@@ -1,4 +1,4 @@
-# Competency - GitHub
+# GitHub
 
 Web-based Git Repository Hosting Service
 
@@ -37,7 +37,7 @@ Read the Github Guides - [https://guides.github.com/](https://guides.github.com/
 Read the Github docs - [https://docs.github.com/en](https://docs.github.com/en)
 
 Learn gh - (https://cli.github.com/)
-# Competency - GitHub - Level 2
+# GitHub - Level 2
 
 Have achieved all the things for the basic competency and additionally can administer GitHub {teams, orgs, security} and have utilized its advanced features.
 

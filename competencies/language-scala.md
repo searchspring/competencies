@@ -1,4 +1,4 @@
-# Competency - Language Scala
+# Language: Scala
 
 Scala is a mix of OO and functional programming.  It's based on the JVM and typesafe / static language.
 

@@ -1,4 +1,4 @@
-# UI Framework - Ember
+# UI Framework: Ember
 
 Popular UI framework with component based architecture.
 

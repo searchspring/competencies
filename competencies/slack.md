@@ -1,4 +1,4 @@
-# Competency - Slack
+# Slack
 
 Slack is an instant messaging platform built for business.  We use it internally to do lots and lots of our communication - so much so, that we hardly ever use email for internal communication.  
 

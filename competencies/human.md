@@ -1,4 +1,4 @@
-# Competency - Human
+# Human
 
 We work with humans.  They can be lovely.  Treat them nicely.
 

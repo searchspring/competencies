@@ -1,4 +1,4 @@
-# Competency - Computer Vision
+# Computer Vision
 
 Computer vision is an essential prerequisite to become a Machine Learning Developer. Computer vision is a field of artificial intelligence that trains computers to interpret and understand the visual world. Using digital images from cameras and videos and deep learning models, machines can accurately identify and classify objects — and then react to what they “see.” Image and Video processing are two main principles that you should know in CV. In order to master computer vision, you should be an expert in OpenCV library which is one of the pillars on Computer Vision. OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library which was built to provide a common infrastructure for computer vision applications and to accelerate the use of machine perception in the commercial products.
 

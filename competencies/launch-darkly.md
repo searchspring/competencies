@@ -1,4 +1,4 @@
-# Competency - Launch Darkly
+# Launch Darkly
 
 Launch Darkly is a feature flag management tool as a service.  
 

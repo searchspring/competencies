@@ -1,4 +1,4 @@
-# Competency - Configuration Management - Terraform
+# Configuration Management - Terraform
 
 Terraform is part of our infrastructure as code initiative. It allow us to review our infrastructure before deploying it. It also keep for us a state of our infrastructure at a instant and will always try to revert to that instant in case unwanted changes. 
 

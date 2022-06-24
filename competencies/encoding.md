@@ -1,4 +1,4 @@
-# Competency - Encoding
+# Encoding
 
 Encoding is important to understand but generally easy to deal with once you're know what you're doing.  
 

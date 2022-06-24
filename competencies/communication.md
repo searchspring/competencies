@@ -1,4 +1,4 @@
-# Competency - Communication
+# Communication
 
 If people are the only asset in an organization, the communications between people is the only way to accomplish anything.  Good communication is critical.
 

@@ -1,4 +1,4 @@
-# Competency - Google Drive
+# Google Drive
 
 Google drive is where we store most of our working documents.
 

@@ -1,4 +1,4 @@
-# Competency - Getting Things Done GTD
+# Getting Things Done GTD
 
 A methodology for getting things out of your head into trusted systems so that tasks don't get done, and things you're not getting done aren't stressing you out.
 

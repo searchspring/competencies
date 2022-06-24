@@ -1,4 +1,4 @@
-# Competency - Technical Breadth Azure Services
+# Technical Breadth: Azure Services
 
 Microsofts cloud offering.
 

@@ -1,4 +1,4 @@
-# Competency - Trust
+# Trust
 
 Trust is the foundation of any working relationship. Trust allows coworkers to work on projects and tasks together and know that the other is doing exactly what they need to. 
 

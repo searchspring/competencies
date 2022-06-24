@@ -1,4 +1,4 @@
-# Competency - Selling
+# Selling
 
 Value-Based Selling is the process of understanding and reinforcing the reasons why your offer is valuable to the stakeholders of a potential product.
 

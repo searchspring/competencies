@@ -1,4 +1,4 @@
-# Competency - ML Framework - MXNet
+# ML Framework: MXNet
 
 Apache MXNet is an open-source machine learning software framework used to train and deploy deep neural networks. It is scalable, allowing for fast model training, and supports a flexible programming model and multiple programming languages (including C++, Python, Java, Julia, Matlab, JavaScript, Go, R, Scala, Perl, and Wolfram Language).
 The MXNet library is portable and can scale to multiple GPUs and multiple machines. MXNet is supported by public cloud providers including Amazon Web Services (AWS) and Microsoft Azure. Amazon has chosen MXNet as its deep learning framework of choice at AWS. As of May 2020, MXNet is supported by Intel, Baidu, Microsoft, Wolfram Research, and research institutions such as Carnegie Mellon, MIT, the University of Washington, and the Hong Kong University of Science and Technology.

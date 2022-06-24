@@ -1,4 +1,4 @@
-# Competency - Design Tool Sketch
+# Design Tool: Sketch
 
 [Sketch](https://www.sketch.com/) is a paid interface design application used to build fully-fledged illustration, as well as prototyping capabilities on mac OS
 

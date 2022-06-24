@@ -1,4 +1,4 @@
-# Competency - Email
+# Email
 
 Email is typically for external communication as we pretty much use slack for everything.
 

@@ -1,4 +1,4 @@
-# Competency - Technical Breadth UI Frameworks
+# Technical Breadth: UI Frameworks
 
 UI frameworks change fast and staying on top of them is a challenge.
 

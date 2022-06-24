@@ -1,4 +1,4 @@
-# Competency - 1Password
+# 1Password
 
 1Password is our password manager for helping folks create strong passwords and not reuse them across systems.
 

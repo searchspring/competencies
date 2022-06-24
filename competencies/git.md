@@ -1,4 +1,4 @@
-# Competency - Git
+# Git
 
 Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
@@ -36,7 +36,7 @@ Conventional Commits - [https://www.conventionalcommits.org/](https://www.conven
 
 Bookmark - [https://ohshitgit.com/](https://ohshitgit.com/)
 
-# Competency - Git - Level 2
+# Git - Level 2
 
 Have achieved all the things for the basic competency, are capable of solving advanced Git issues.
 

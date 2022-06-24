@@ -1,4 +1,4 @@
-# UI Framework - Vue (v3)
+# UI Framework: Vue (v3)
 
 Vue (pronounced /vjuː/, like view) is a progressive framework for building user interfaces. It consists of an approachable core library that focuses on the view layer only, and an ecosystem of supporting libraries that helps you tackle complexity in large Single-Page Applications.
 

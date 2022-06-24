@@ -1,4 +1,4 @@
-# Competency - Kubernetes
+# Kubernetes
 
 Most of our systems are deployed in kubernetes.  
 

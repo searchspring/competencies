@@ -1,4 +1,4 @@
-# Competency - DB Postgresql Level 1
+# Database: Postgresql Level 1
 Postgresql is a popular relational database (RDBMS) emphasizing extensibility and SQL compliance.
 
 ## How do you prove it?
@@ -15,7 +15,7 @@ Postgresql is a popular relational database (RDBMS) emphasizing extensibility an
 - Have a basic understand of [RDBMS concepts](https://www.tutorialspoint.com/sql/sql-rdbms-concepts.htm).
 - Install Postgresql as a Docker container on your system, create a database, put data in it, dump it out and re-import it.
 
-# Competency - DB Postgresql Level 2
+# Database: Postgresql Level 2
 
 ## How do you prove it?
 - You can explain how Postgresql replication works, why you would use it, and what it can and cannot do.

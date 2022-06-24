@@ -1,4 +1,4 @@
-# Competency - Configuration Management - Chef
+# Configuration Management - Chef
 
 Chef is part of a tool set to manage an Infrastructure as Code. It allow to automate and reuse processes that use to be manual. The main goal of Chef is to resolve divergence between what the user want (code) and the current state of the infrastructure (servers, applications etc..)
 

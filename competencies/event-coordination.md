@@ -1,4 +1,4 @@
-# Competency - Event Coordination
+# Event Coordination
 
 We run events, a lot of events. THe two most important events are Startup Slam and Battlesnake. 
 

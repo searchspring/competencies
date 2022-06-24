@@ -1,4 +1,4 @@
-# UI Framework - Marko
+# UI Framework: Marko
 
 Popular UI framework from Ebay with component based architecture.
 

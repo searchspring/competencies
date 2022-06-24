@@ -1,4 +1,4 @@
-# Competency - Product Evangelism
+# Product Evangelism
 
 A person that can evangelize about the product.
 

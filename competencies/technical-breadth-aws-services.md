@@ -1,4 +1,4 @@
-# Competency - Technical Breadth AWS Services
+# Technical Breadth: AWS Services
 
 AWS does many things, you should know a breadth of them to correctly choose the right service for your architecture.
 

@@ -1,4 +1,4 @@
-# Competency - Wardley Maps
+# Wardley Maps
 
 Wardley maps are a way of mapping your environment to allow you to communicate about and select strategies.
 

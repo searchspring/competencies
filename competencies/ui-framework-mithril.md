@@ -1,4 +1,4 @@
-# UI Framework - Mithril
+# UI Framework: Mithril
 
 Mithril is a small (~8kb) UI framework. Its main benefit is its simplicity by being just plain javascript. It has a built-in router and XHR!
 

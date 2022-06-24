@@ -1,4 +1,4 @@
-# Competency - Research
+# Research
 
 A thorough investigation into the domain that reveals existing available knowledge or highlights the gap in existing available knowledge.  For environments with high information turnover, this is primarily to do with your ability to leverage resources available on or through the Internet. For slower moving targets such as geology or human understanding the library is still useful.  (though it's probably faster to buy the book through amazon)
 

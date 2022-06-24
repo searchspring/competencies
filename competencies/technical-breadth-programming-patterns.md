@@ -1,4 +1,4 @@
-# Competency - Technical Breadth Programming Patterns
+# Technical Breadth: Programming Patterns
 
 Knowing patterns for good software design will help you build better software.
 

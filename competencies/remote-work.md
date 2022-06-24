@@ -1,4 +1,4 @@
-# Competency - Remote Work
+# Remote Work
 
 As distinct from working from home, remote work is when your primry workspace is away from the main office.
 Like during a pandemic.

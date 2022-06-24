@@ -1,4 +1,4 @@
-# Competency - Deep Learning
+# Deep Learning
 
 If you are an ML engineer, then you are familiar with Deep Learning and the architecture behind. Deep Learning is a subfield of machine learning concerned with algorithms inspired by the structure and function of the brain called artificial neural networks. In deep learning, a computer model learns to perform classification tasks directly from images, text, sound, and in general any signals. Deep learning models can achieve state-of-the-art accuracy, sometimes exceeding human-level performance. Models are trained by using a large set of labeled data and neural network architectures that contain many layers.
 

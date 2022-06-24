@@ -1,4 +1,4 @@
-# Competency - Coding
+# Coding
 
 Coding is separate from a language you code in.  The coding competency is the surrounding parts of building code.  How ergonomic are you with your computer, your IDE, your system.  
 

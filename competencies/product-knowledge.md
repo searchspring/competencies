@@ -1,4 +1,4 @@
-# Competency - Product Knowledge
+# Product Knowledge
 
 As the central point for all ideas within the product it is imperative that all product knowledge is in your head and fits in your head without need to refer to external sources.  
 

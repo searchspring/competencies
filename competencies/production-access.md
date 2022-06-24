@@ -1,4 +1,4 @@
-# Competency - Production Access Readiness
+# Production Access Readiness
 
 Generally only robots and devops should have access to production.  Production is a dangerous place where things can easily go drastically wrong.
 However, with legacy systems that don't have good automated processes behind them, sometimes it is necessary to go on to these machines and make modifications, for example during outages or failures to investigate / rectify.  This competency describes what skills you need to navigate those systems safely.

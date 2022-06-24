@@ -1,4 +1,4 @@
-# Competency - Negotiating
+# Negotiating
 
 Lots of the role of any manager is interacting with people that want things that you're not going to do.  Sales, customers, board members, team members.  This skill is needed so that you can disagree without hurting relationships, even strengthening them.
 

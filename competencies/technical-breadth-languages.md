@@ -1,4 +1,4 @@
-# Competency - Technical Breadth Languages
+# Technical Breadth: Languages
 
 Knowing more than one type of language will give you many benefits.
 

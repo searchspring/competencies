@@ -1,4 +1,4 @@
-# Competency - ML Framework - Scikit Learn
+# ML Framework: Scikit Learn
 
 If you are a Python programmer or you are looking for a robust library you can use to bring machine learning into a production system then a library that you will want to seriously consider is scikit-learn. It provides a range of supervised and unsupervised learning algorithms via a consistent interface in Python. It is licensed under a permissive simplified BSD license and is distributed under many Linux distributions, encouraging academic and commercial use. The library is built upon the SciPy (Scientific Python) that must be installed before you can use scikit-learn. This stack that includes NumPy - Base n-dimensional array package, SciPy - Fundamental library for scientific computing, Matplotlib - Comprehensive 2D/3D plotting and visualization, IPython - Enhanced interactive console, Sympy - Symbolic mathematics, and Pandas - Data structures and analysis.
 

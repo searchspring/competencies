@@ -1,4 +1,4 @@
-# Competency - Meetings
+# Meetings
 
 Two or more people come together to do one of the following: 
 Share information, Make some strategic decision, Tackle a tough problem, Cross department alignment, Retrospectives, Team planning

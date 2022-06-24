@@ -1,4 +1,4 @@
-# Competency - Design Tool Balsamiq
+# Design Tool: Balsamiq
 
 [Balsamiq](https://balsamiq.com/) is a web-based mockup application used to build low fidelity UI wireframes. It simulates an experience and results similar to creating a wireframe with a physical pencil and paper. Its goal is to let you focus more on the content and layout instead of colors and fine details.
 

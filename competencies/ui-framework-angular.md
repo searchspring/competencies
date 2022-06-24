@@ -1,4 +1,4 @@
-# UI Framework - Angular
+# UI Framework: Angular
 
 Popular UI framework from Google with TDD and component based architecture.
 

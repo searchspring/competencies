@@ -1,4 +1,4 @@
-# Competency - Proactive Communication
+# Proactive Communication
 
 Communication is foundational to what product management is, and being an effective PM requires continual investment into effective communication. Product managers have outstanding communication skills, coupled with proactive behaviours and positive mindset.
 

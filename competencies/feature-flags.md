@@ -1,4 +1,4 @@
-# Competency - Feature Flags (toggles)
+# Feature Flags (toggles)
 
 Feature flags are ways of deploying code so that you can toggle whether the code is executed or not.
 

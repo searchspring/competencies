@@ -1,4 +1,4 @@
-# Competency - Language TypeScript Level 1
+# Language: TypeScript Level 1
 TypeScript is an open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript, and adds optional static typing to the language. - [Wikipedia](https://en.wikipedia.org/wiki/TypeScript)
 
 ## How do you prove it?
@@ -19,7 +19,7 @@ Read the TypeScript documentation directly [here](https://www.typescriptlang.org
 * Use Generics
 * Unions && Discriminated Unions
 
-# Competency - Language TypeScript Level 2
+# Language: TypeScript Level 2
 
 ## How do you prove it?
 * For code you have submitted, your code reviews receive few syntactic corrections.

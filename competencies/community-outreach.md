@@ -1,4 +1,4 @@
-# Competency - Community Outreach
+# Community Outreach
 
 You go out into the community to add value. You are a brand representative within your local community and within the larger community of your profession. 
 

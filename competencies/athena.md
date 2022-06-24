@@ -1,4 +1,4 @@
-# Competency - Athena Level 1
+# Athena Level 1
 Amazon Athena is an interactive query service that makes it easy to analyze data in Amazon S3
 using standard SQL. Athena is serverless, so there is no infrastructure to manage, and you pay
 only for the queries that you run. Amazon Athena supports ANSI SQL queries. Amazon Athena uses
@@ -15,7 +15,7 @@ including large joins, window functions, and arrays.
 - Read the [athena docs](https://docs.aws.amazon.com/athena/index.html)
 - Read the [presto db docs](https://prestodb.io/docs/current/)
 
-# Competency - Athena Level 2
+# Athena Level 2
 
 ## How do you prove it?
 - You are comfortable using the query editor to perform advanced queries including GROUP BY and joins.

@@ -73,3 +73,13 @@ npx http-server docs
 ```
 
 Now go to http://localhost:8080
+
+# TODO:
+- string logic
+    - regex pass on all complicated strings.Trim/Replace/etc...
+- naming
+    - benefits-management has incorrect level naming convention
+    - elasticsearch has incorrect level naming convention
+- skills in a group aren't sorted using GetSkills, need to extract to someplace better
+- skills that are in a group can be listed in skills list without using "n of" group notation
+- inherited roles are currently in a map then sorted by number of skills but it should be by order of inheritance

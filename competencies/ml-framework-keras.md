@@ -1,4 +1,4 @@
-# Competency - ML Framework - Keras
+# ML Framework: Keras
 
 Keras is an open-source neural-network library written in Python. It is capable of running on top of TensorFlow, Microsoft Cognitive Toolkit, R, Theano, or PlaidML. Designed to enable fast experimentation with deep neural networks, it focuses on being user-friendly, modular, and extensible. It was developed as part of the research effort of project ONEIROS (Open-ended Neuro-Electronic Intelligent Robot Operating System), and its primary author and maintainer is François Chollet, a Google engineer. In general Keras is a layer of using backend frameworks in an easier and faster manner for experiments, research, as well as production.
 

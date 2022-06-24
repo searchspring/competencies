@@ -1,4 +1,4 @@
-# Competency - Recruiter
+# Recruiter
 
 One place to find awesome people is through awesome people.  If you work here, chances are, you're awesome.  And so we would probably be interested in the awesome people you know.
 
@@ -14,7 +14,7 @@ Understand that recruiting someone is often a multi-year process and thus we're 
 
 When you meet new people and they seem awesome, ask them if they know anyone awesome and chat with them on linkedin.
 
-# Competency - Recruiter Advanced
+# Recruiter Advanced
 
 You know how to source candidates, reach out to them and stay on top of new trends in the recruiting industry. You understand what your recruitment pipeline looks like and what pain points we are facing. 
 

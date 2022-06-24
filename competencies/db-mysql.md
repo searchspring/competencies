@@ -1,4 +1,4 @@
-# Competency - DB MySQL Level 1
+# Database: MySQL Level 1
 MySQL is a popular relational database (RDBMS). This compentency covers MySQL and MySQL-like and compatible databases (EG: Percona-Server, MariaDB, Aurora, etc).
 
 Wikipedia:
@@ -25,7 +25,7 @@ Wikipedia:
 - Have a basic understand of [RDBMS concepts](https://www.tutorialspoint.com/sql/sql-rdbms-concepts.htm).
 - Install MySQL as a Docker container on your system, create a database, put data in it, dump it out and re-import it.
 
-# Competency - DB MySQL Level 2
+# Database: MySQL Level 2
 
 ## How do you prove it?
 - You can explain how MySQL replication works, why you would use it, and what it can and cannot do.

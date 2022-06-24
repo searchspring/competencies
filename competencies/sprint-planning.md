@@ -1,4 +1,4 @@
-# Competency - Sprint Planning
+# Sprint Planning
 
 How do you put together a sprint of work that is achievable in the time allotted.  
 

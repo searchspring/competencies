@@ -1,4 +1,4 @@
-# Competency - Owning the Product Roadmap
+# Owning the Product Roadmap
 
 The product roadmap is a 6 month to 1 year projection of where the product will be at that time.  Timelines shorter than six months are tactical and dealt with by the product backlog.
 

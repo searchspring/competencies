@@ -1,4 +1,4 @@
-# Competency - Front End
+# Front End
 
 You are able to build websites using html, css, and JavaScript and tie these things up to existing backend services.
 

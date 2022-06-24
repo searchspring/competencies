@@ -1,4 +1,4 @@
-# Competency - Community Builder
+# Community Builder
 
 We want to improve the areas in which we work.  
 

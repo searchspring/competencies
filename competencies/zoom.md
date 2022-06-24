@@ -1,4 +1,4 @@
-# Competency - Zoom
+# Zoom
 
 We use zoom as our video communication platform.
 

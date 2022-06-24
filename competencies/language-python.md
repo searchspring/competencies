@@ -1,4 +1,4 @@
-# Competency - Language Python - Level 1
+# Language: Python - Level 1
 Python is a dynamic language that uses spaces for structured blocks of code.  Python is most used for Data Engineering/Data Science and Web Development.
 
 ## How do you prove it?
@@ -16,7 +16,7 @@ Python is a dynamic language that uses spaces for structured blocks of code.  Py
 * Pip (and other package managers)
 * Third party libaries such as `requests`, `BeautifulSoup`, `pandas`, `numpy`, etc...
 
-# Competency - Language Python - Level 2
+# Language: Python - Level 2
 
 ## How do you prove it?
 * For code you have submitted, your code reviews receive few syntactic corrections.

@@ -1,4 +1,4 @@
-# Competency - Mentoring
+# Mentoring
 
 Mentoring is all about sharing knowledge. Typically one person who is highly skilled will work with someone who is still improving to help them accelerate their knowledge in a particular domain. 
 

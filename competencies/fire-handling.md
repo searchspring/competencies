@@ -1,4 +1,4 @@
-# Competency - Fire Handling
+# Fire Handling
 
 Be part of the response team that responds to production emergencies.
 

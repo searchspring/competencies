@@ -1,4 +1,4 @@
-# Competency - Technical Breadth Databases
+# Technical Breadth: Databases
 
 There are lots of ways of storing data, be sure to know many ways so you can select the best fit.
 

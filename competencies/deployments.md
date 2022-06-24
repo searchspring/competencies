@@ -1,4 +1,4 @@
-# Competency - Deployments
+# Deployments
 
 Deploying software into production is something you'll do often.  Being familiar with the process of doing so and the wide variety of possible deployment architectures will be very useful.
 
@@ -20,7 +20,7 @@ Logs:
 
 Read The Phoenix Project: [https://www.amazon.ca/Phoenix-Project-DevOps-Helping-Business/dp/0988262592](https://www.amazon.ca/Phoenix-Project-DevOps-Helping-Business/dp/0988262592)
 
-# Competency - Deployments - Level 2
+# Deployments - Level 2
 
 ## How do you prove it?
 

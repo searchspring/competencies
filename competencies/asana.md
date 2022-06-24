@@ -1,4 +1,4 @@
-# Competency - Asana
+# Asana
 
 Asana is our task management tool.  We use it in every department and this uniformity of task tracking allows us to do some magical things.  
 

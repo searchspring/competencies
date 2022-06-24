@@ -1,4 +1,4 @@
-# Competency - Testing
+# Testing
 
 Testing, in development terms, really is about confidence in your code, and the codebase of the product in general. Different testing methodologies cover different aspects of a system. If code is changed, that causes a regression in functionality, tests that were passing should fail.
 

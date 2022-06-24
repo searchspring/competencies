@@ -1,4 +1,4 @@
-# UI Framework - React Native
+# UI Framework: React Native
 
 React Native combines the best parts of native development with React, a best-in-class JavaScript library for building user interfaces. To build applications for iOS and Android.
 

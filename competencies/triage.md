@@ -1,4 +1,4 @@
-# Competency - Triage
+# Triage
 
 Triage is the act of filtering incoming product related tasks.  Rejecting things that should not be considered and fleshing out the things that should be considered.
 

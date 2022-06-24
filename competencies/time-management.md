@@ -1,4 +1,4 @@
-# Competency - Time Management
+# Time Management
 
 There is lots of work to do and you will be asked to do more work than you have time. However, it is your responsibility
 to recognise that you have limited time and what to do when your workload is greater than your available time.

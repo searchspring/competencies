@@ -1,4 +1,4 @@
-# Competency - Customer Empathy
+# Customer Empathy
 
 Customer empathy is the ability to put yourself in the customer's metaphorical shoes and understand why it is the way they feel. If we didn't understand the customer then we wouldn't really know what problems they have and how we can solve them.
 

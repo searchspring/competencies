@@ -1,4 +1,4 @@
-# Competency - IDE - Rider
+# IDE: Rider
 
 Rider is a C# focussed IDE by JetBrains and has very good indexing and understanding of your code which allows for near magical refactoring.
 

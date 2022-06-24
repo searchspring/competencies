@@ -1,4 +1,4 @@
-# Competency - ML Framework - PyTorch
+# ML Framework: PyTorch
 
 PyTorch is an open source machine learning library used for developing and training neural network based deep learning models. It is primarily developed by Facebook’s AI research group. PyTorch is written in Lua and can be used with Python as well as C++/Java. Naturally, the Python interface is more polished. PyTorch (backed by biggies like Facebook, Microsoft, SalesForce, Uber) is immensely popular in research labs. Not yet on many production servers — that are ruled by frameworks like TensorFlow (Backed by Google) — PyTorch is picking up fast.
 Unlike most other popular deep learning frameworks like TensorFlow, which use static computation graphs, PyTorch uses dynamic computation, which allows greater flexibility in building complex architectures. PyTorch uses core Python concepts like classes, structures and conditional loops — that are a lot familiar to our eyes, hence a lot more intuitive to understand. This makes it a lot simpler than other frameworks like TensorFlow that bring in their own programming style.

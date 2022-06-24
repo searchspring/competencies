@@ -1,4 +1,4 @@
-# Competency - Empathy
+# Empathy
 
 The ability to understand and share the feelings of another.  Particularly, your colleagues, our customers, and the 
 community in general.

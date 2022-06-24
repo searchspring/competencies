@@ -8,18 +8,17 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/codeallthethingz/competencies/extensions"
 	"github.com/codeallthethingz/competencies/patterns"
 )
 
-// TODO find a better home
-const (
-	MarkdownExtension string = ".md"
-	HtmlExtension     string = ".html"
-	RolesDirPath      string = "./roles"
-	DocsDirPath       string = "./docs"
-)
-
 // TODO evaluate what should and shouldn't be private
+
+const dirPath string = "./roles"
+
+// roles map singleton set by GetRoles()
+var roles map[string]*Role
+
 type Role struct {
 	Title     string
 	Filename  string
@@ -44,6 +43,38 @@ func new(filename string, inherited bool) (*Role, error) {
 		return nil, err
 	}
 	return role, nil
+}
+
+func GetRoles() (map[string]*Role, error) {
+	if roles != nil {
+		return roles, nil
+	}
+
+	files, err := ioutil.ReadDir(dirPath)
+	if err != nil {
+		return nil, err
+	}
+
+	roles = map[string]*Role{}
+	for _, file := range files {
+		// TODO: REMOVE
+		if file.Name() != "engineering-developer-3.md" {
+			continue
+		}
+
+		if !strings.HasSuffix(file.Name(), extensions.Markdown) {
+			continue
+		}
+		mdFilename := file.Name()
+
+		role, err := New(mdFilename)
+		if err != nil {
+			return nil, err
+		}
+		roles[role.Title] = role
+	}
+
+	return roles, nil
 }
 
 func (role Role) GetSkills() []Skill {
@@ -88,12 +119,12 @@ func (role Role) GetInheritedRoles() []*Role {
 }
 
 func (role *Role) build(inherited bool) error {
-	contents, err := ReadRoleFile(role.Filename)
+	contents, err := readFile(role.Filename)
 	if err != nil {
 		return err
 	}
 
-	role.Title = getTitle(contents)
+	role.Title = GetTitle(contents)
 	role.Markdown = contents
 	skillStrings := readSkillsList(contents)
 
@@ -117,12 +148,13 @@ func (role *Role) addSkills(skillStrings []string) {
 		}
 
 		split := strings.Split(skillString, ":")
-		skill := Skill{Name: strings.TrimSpace(split[0]), Level: 0}
+		skill := Skill{Name: strings.ToLower(strings.TrimSpace(split[0])), Level: 0}
 
 		if len(split) > 1 {
 			level, err := strconv.Atoi(split[1])
 			if err != nil {
-				panic(err)
+				log.Println(err)
+				continue
 			}
 			skill.Level = level
 		}
@@ -141,7 +173,7 @@ func (role *Role) addSkillGroups(skillStrings []string) {
 		}
 
 		split := strings.Split(groupMatches[2], ":")
-		group := Group{Name: strings.TrimSpace(split[0])}
+		group := Group{Name: strings.ToLower(strings.TrimSpace(split[0]))}
 
 		amount, err := strconv.Atoi(groupMatches[1])
 		if err != nil {
@@ -165,7 +197,7 @@ func (role *Role) addSkillGroups(skillStrings []string) {
 
 func (role *Role) addInherited(filename string) error {
 	log.Println("inheriting from", filename)
-	contents, err := ReadRoleFile(filename)
+	contents, err := readFile(filename)
 	if err != nil {
 		return err
 	}
@@ -210,15 +242,15 @@ func (role *Role) dedupeSkillsAndGroups() {
 	}
 }
 
-func ReadRoleFile(filename string) (string, error) {
-	data, err := ioutil.ReadFile(fmt.Sprintf("%s/%s", RolesDirPath, filename))
+func readFile(filename string) (string, error) {
+	data, err := ioutil.ReadFile(fmt.Sprintf("%s/%s", dirPath, filename))
 	if err != nil {
 		return "", err
 	}
 	return string(data), nil
 }
 
-func getTitle(contents string) string {
+func GetTitle(contents string) string {
 	return strings.TrimSpace(strings.Split(contents, "\n")[0][1:])
 }
 

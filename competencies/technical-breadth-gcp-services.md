@@ -1,4 +1,4 @@
-# Competency - Technical Breadth GCP Serices
+# Technical Breadth: GCP Serices
 
 GCP has a wealth of services, make sure you know many so that you can choose the best fit for your architecture.
 

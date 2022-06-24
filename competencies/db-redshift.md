@@ -1,4 +1,4 @@
-# Competency - DB Redshift Level 1
+# Database: Redshift Level 1
 [Amazon Redshift](https://aws.amazon.com/redshift) is a fully managed, petabyte-scale data warehouse service in the cloud.
 
 ## How do you prove it?
@@ -13,7 +13,7 @@
 - [Developer guide](https://docs.aws.amazon.com/redshift/latest/dg/welcome.html)
 - [Dashboard](https://console.aws.amazon.com/redshiftv2/home?region=us-east-1#dashboard)
 
-# Competency - DB Redshift Level 2
+# Database: Redshift Level 2
 
 ## How do you prove it?
 - You know what leader nodes, compute nodes, and slices are.

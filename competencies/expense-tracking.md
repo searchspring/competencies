@@ -1,4 +1,4 @@
-# Competency - Expense Tracking
+# Expense Tracking
 
 Track your expenses!  You shouldn't be paying us to work here, so make sure you are reclaiming expenses that you 
 incur to do your job effectively.

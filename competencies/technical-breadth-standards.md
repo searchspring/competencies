@@ -1,4 +1,4 @@
-# Competency - Breadth of Standards
+# Technical Breadth: Standards
 
 Standards such as programming language standards, protocol standards, data structure standards, accessibility standards, security standards, compliance standards.
 

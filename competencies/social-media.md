@@ -1,4 +1,4 @@
-# Competency - Social Media
+# Social Media
 
 We use social media (Twitter, Facebook, Instagram, LinkedIn) for employer branding and marketing purposes. 
 

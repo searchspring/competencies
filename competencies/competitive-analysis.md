@@ -1,4 +1,4 @@
-# Competency - Competitive Analysis
+# Competitive Analysis
 
 Competitive research or competitive intelligence is a field of strategic research that specializes in the collection and analysis of information about rival firms. Competitive analysis helps us ensure that we stay on top of market trends that may impact our customers or our ability to stay competitive in the market. It also gives us ideas about what to do or not to do. 
 

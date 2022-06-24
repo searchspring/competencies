@@ -1,4 +1,4 @@
-# Competency - Language Go Level 1
+# Language: Go Level 1
 [Go](https://golang.org/) (often referred to as golang for googling purposes) is a programming language created at Google in 2009 by Robert Griesemer, Rob Pike, and Ken Thompson. It is a compiled, statically typed language in the tradition of Algol and C, with garbage collection, limited structural typing, memory safety features and CSP-style concurrent programming features added. The compiler and other language tools originally developed by Google are all free and open source. - [Wikipedia](https://en.wikipedia.org/wiki/Go_(programming_language))
 
 ## How do you prove it?
@@ -15,7 +15,7 @@
 * Learn [best practices](https://blog.chewxy.com/2018/03/18/golang-interfaces/)
 * Learn about building [memory performant golang](https://segment.com/blog/allocation-efficiency-in-high-performance-go-services/)
 
-# Competency - Language Go Level 2
+# Language: Go Level 2
 
 ## How do you prove it?
 * For code you have submitted, your code reviews receive few syntactic corrections.

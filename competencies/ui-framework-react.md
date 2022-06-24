@@ -1,4 +1,4 @@
-# UI Framework - React
+# UI Framework: React
 
 React is a popular UI library built by Facebook. It lets you build UIs from small and isolated pieces of code called components. 
 

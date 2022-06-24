@@ -1,4 +1,4 @@
-# Competency - CSS Framework Tailwind
+# CSS Framework: Tailwind
 
 [Tailwind](https://tailwindcss.com/) is a CSS framework that differs from other frameworks in that it only provides you with the raw basics of what you need to quickly style a website. There are no pre-defined components such as buttons. It is expected that you use Tailwind to build your own. Tailwind allows you to style your website rather than style a prototype as it gives you freedom whereas in other frameworks you are overwriting everything.
 

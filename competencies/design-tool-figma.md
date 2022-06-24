@@ -1,4 +1,4 @@
-# Competency - Design Tool Figma
+# Design Tool: Figma
 
 [Figma](https://www.figma.com/) is a free collaborative interface design application used to build fully-fledged illustration, as well as prototyping capabilities
 

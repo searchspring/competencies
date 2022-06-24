@@ -1,4 +1,4 @@
-# Competency - One on Ones
+# One on Ones
 
 A key facet of working and leading a team is performing one on one check-ins with
 

@@ -1,4 +1,4 @@
-# Web API - Service Worker
+# Web API: Service Worker
 >Service workers essentially act as proxy servers that sit between web applications, the browser, and the network (when available). - [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API)
 
 ## How do you prove it?

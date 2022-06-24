@@ -1,4 +1,4 @@
-# Competency - make
+# make
 
 Make is a build automation tool that automatically builds executable programs
 and libraries by reading files called `Makefiles`. Besides building programs,

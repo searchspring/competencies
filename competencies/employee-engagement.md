@@ -1,4 +1,4 @@
-# Competency - Employee Engagement
+# Employee Engagement
 
 Working with the team on initiatives to better the entire organization. This is getting feedback, creating impromptu team events, lunches, coffees. This is also being a voice for the team and listening to others when they want to talk.
 

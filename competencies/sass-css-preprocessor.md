@@ -1,4 +1,4 @@
-# Competency - CSS Preprocessor SASS
+# CSS Preprocessor SASS
 
 [SASS](https://sass-lang.com/) is CSS preprocessor that allows you to write nested CSS as well as the ability to use CSS more as a programming language with reusable variables and functions.
 

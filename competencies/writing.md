@@ -1,4 +1,4 @@
-# Competency - Writing
+# Writing
 
 Being able to communicate well is one of the most important skills you can develop.
 Your great ideas do you no good if no one else understands them. Whether you are

@@ -1,4 +1,4 @@
-# Competency - Documentation
+# Documentation
 
 This may include writing and sharing effective and actionable documentation, or working with other stakeholders to ensure that it is captured and shared. 
 
