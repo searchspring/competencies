@@ -179,7 +179,8 @@ func (role *Role) addSkillGroups(skillStrings []string) {
 		if err != nil {
 			panic(err)
 		}
-		group.Amount = amount
+		ga := GroupAmount(amount)
+		group.Amount = &ga
 
 		if len(split) > 1 {
 			level, err := strconv.Atoi(split[1])

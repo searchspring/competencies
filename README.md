@@ -81,6 +81,4 @@ Now go to http://localhost:8080
     - benefits-management has incorrect level naming convention
     - elasticsearch has incorrect level naming convention
 - skills in a group aren't sorted using GetSkills, need to extract to someplace better
-- skills that are in a group can be listed in skills list without using "n of" group notation
-    - perhaps switch to use :n suffix which indicates any amount of group
 - inherited roles are currently in a map then sorted by number of skills but it should be by order of inheritance

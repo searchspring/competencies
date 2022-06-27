@@ -45,8 +45,7 @@ Part of Successful Projects:1
 Prometheus
 Grafana
 Make
-Web API: Service Worker
-Web API: Web Worker
+0 of Web API
 1 of IDE
 </skills>
 

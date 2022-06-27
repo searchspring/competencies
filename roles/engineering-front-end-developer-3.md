@@ -26,8 +26,7 @@ Github:2
 Github Actions
 Browser Dev Tools:2
 SASS CSS Preprocessor
-Web API: Service Worker
-Web API: Web Worker
+0 of Web API
 3 of Language:2
 4 of Technical Breadth
 3 of UI Framework

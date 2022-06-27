@@ -118,7 +118,7 @@ func getSkillHTML(skill role.Skill, competencies map[string]*competency.Competen
 	classes += " " + name2Id(skill.Name)
 	classes += " competency inline-block rounded-full bg-gray-300 p-1 px-2 mr-2 mb-2 text-xs whitespace-no-wrap"
 
-	html += "<span id=\"" + name2Id(skill.Name) + "\" level=\"" + strconv.Itoa(skill.Level) + "\" class=\"" + classes + "\">" + github + nameLevelAndGroup(skill.Name, skill.Level, 0) + drive + "</span>"
+	html += "<span id=\"" + name2Id(skill.Name) + "\" level=\"" + strconv.Itoa(skill.Level) + "\" class=\"" + classes + "\">" + github + nameLevelAndGroup(skill.Name, skill.Level, nil) + drive + "</span>"
 	return html
 }
 
@@ -147,15 +147,15 @@ func name2Id(name string) string {
 	return "c-" + strings.ToLower(strings.ReplaceAll(strings.ReplaceAll(name, " ", ""), "-", ""))
 }
 
-func nameLevelAndGroup(name string, level int, groupAmount int) string {
+func nameLevelAndGroup(name string, level int, groupAmount *role.GroupAmount) string {
 	lvlstr := ""
 	if level > 1 {
 		lvlstr = fmt.Sprintf(": level %d", level)
 	}
 
 	grpstr := ""
-	if groupAmount >= 1 {
-		grpstr = fmt.Sprintf(" (%d of)", groupAmount)
+	if groupAmount != nil {
+		grpstr = fmt.Sprintf(" (%s of)", groupAmount)
 	}
 
 	return fmt.Sprintf("%s%s%s", strings.ToLower(strings.TrimSpace(name)), lvlstr, grpstr)

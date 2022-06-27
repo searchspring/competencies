@@ -43,11 +43,10 @@ Prometheus
 Grafana
 Make
 TDD
-Web API: Service Worker
-Web API: Web Worker
 Elasticsearch Level 1
 Part of Successful Projects:1
 Athena:1
+0 of Web API
 1 of Language
 1 of IDE
 1 of Database:1
