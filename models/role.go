@@ -1,4 +1,4 @@
-package role
+package models
 
 import (
 	"fmt"
@@ -20,12 +20,17 @@ const dirPath string = "./roles"
 var roles map[string]*Role
 
 type Role struct {
-	Title     string
-	Filename  string
+	Name      string
+	Level     int
+	Skills    Skills
+	Inherited []*Role
 	Markdown  string
-	Skills    map[string]Skill
-	Groups    map[string]Group
-	Inherited map[string]*Role
+	Filename  string
+}
+
+type Skills struct {
+	Competencies []Competency
+	Groups       []Group
 }
 
 func New(filename string) (*Role, error) {
@@ -34,10 +39,12 @@ func New(filename string) (*Role, error) {
 
 func new(filename string, inherited bool) (*Role, error) {
 	role := &Role{
+		Skills: Skills{
+			Competencies: []Competency{},
+			Groups:       []Group{},
+		},
+		Inherited: []*Role{},
 		Filename:  filename,
-		Skills:    map[string]Skill{},
-		Groups:    map[string]Group{},
-		Inherited: map[string]*Role{},
 	}
 	if err := role.build(inherited); err != nil {
 		return nil, err
