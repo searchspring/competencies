@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"io/ioutil"
 	"log"
-	"sort"
 	"strconv"
 	"strings"
 
@@ -84,46 +83,46 @@ func GetRoles() (map[string]*Role, error) {
 	return roles, nil
 }
 
-func (role Role) GetSkills() []Skill {
-	skills := []Skill{}
-	for _, skill := range role.Skills {
-		skills = append(skills, skill)
-	}
-	sort.SliceStable(skills, func(i, j int) bool {
-		if skills[i].Name == skills[j].Name {
-			return skills[i].Level < skills[j].Level
-		}
-		return skills[i].Name < skills[j].Name
-	})
-	return skills
-}
+// func (role Role) GetSkills() []Skill {
+// 	skills := []Skill{}
+// 	for _, skill := range role.Skills {
+// 		skills = append(skills, skill)
+// 	}
+// 	sort.SliceStable(skills, func(i, j int) bool {
+// 		if skills[i].Name == skills[j].Name {
+// 			return skills[i].Level < skills[j].Level
+// 		}
+// 		return skills[i].Name < skills[j].Name
+// 	})
+// 	return skills
+// }
 
-func (role Role) GetGroups() []Group {
-	groups := []Group{}
-	for _, group := range role.Groups {
-		groups = append(groups, group)
-	}
-	sort.SliceStable(groups, func(i, j int) bool {
-		if groups[i].Name == groups[j].Name {
-			return groups[i].Level < groups[j].Level
-		}
-		return groups[i].Name < groups[j].Name
-	})
-	return groups
-}
+// func (role Role) GetGroups() []Group {
+// 	groups := []Group{}
+// 	for _, group := range role.Groups {
+// 		groups = append(groups, group)
+// 	}
+// 	sort.SliceStable(groups, func(i, j int) bool {
+// 		if groups[i].Name == groups[j].Name {
+// 			return groups[i].Level < groups[j].Level
+// 		}
+// 		return groups[i].Name < groups[j].Name
+// 	})
+// 	return groups
+// }
 
-func (role Role) GetInheritedRoles() []*Role {
-	roles := []*Role{}
-	for _, inheritedRole := range role.Inherited {
-		roles = append(roles, inheritedRole)
-	}
-	sort.SliceStable(roles, func(i, j int) bool {
-		lenI := len(roles[i].GetSkills()) + len(roles[i].GetGroups())
-		lenJ := len(roles[j].GetSkills()) + len(roles[j].GetGroups())
-		return lenI > lenJ
-	})
-	return roles
-}
+// func (role Role) GetInheritedRoles() []*Role {
+// 	roles := []*Role{}
+// 	for _, inheritedRole := range role.Inherited {
+// 		roles = append(roles, inheritedRole)
+// 	}
+// 	sort.SliceStable(roles, func(i, j int) bool {
+// 		lenI := len(roles[i].GetSkills()) + len(roles[i].GetGroups())
+// 		lenJ := len(roles[j].GetSkills()) + len(roles[j].GetGroups())
+// 		return lenI > lenJ
+// 	})
+// 	return roles
+// }
 
 func (role *Role) build(inherited bool) error {
 	contents, err := readFile(role.Filename)
@@ -131,11 +130,11 @@ func (role *Role) build(inherited bool) error {
 		return err
 	}
 
-	role.Title = GetTitle(contents)
+	role.Name = GetTitle(contents)
 	role.Markdown = contents
 	skillStrings := readSkillsList(contents)
 
-	role.addSkills(skillStrings)
+	role.parseCompetencies(skillStrings)
 	role.addSkillGroups(skillStrings)
 	if !inherited {
 		// recursively build inherited roles
@@ -148,7 +147,7 @@ func (role *Role) build(inherited bool) error {
 	return nil
 }
 
-func (role *Role) addSkills(skillStrings []string) {
+func (role *Role) parseCompetencies(skillStrings []string) {
 	for _, skillString := range skillStrings {
 		if patterns.Group.MatchString(skillString) {
 			continue
