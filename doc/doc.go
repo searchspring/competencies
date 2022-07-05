@@ -7,10 +7,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/codeallthethingz/competencies/competency"
 	"github.com/codeallthethingz/competencies/extensions"
+	"github.com/codeallthethingz/competencies/models/competency"
+	"github.com/codeallthethingz/competencies/models/group"
+	"github.com/codeallthethingz/competencies/models/role"
 	"github.com/codeallthethingz/competencies/patterns"
-	"github.com/codeallthethingz/competencies/role"
 	"github.com/russross/blackfriday/v2"
 )
 
@@ -59,7 +60,7 @@ func generateHTML(role *role.Role, competencies map[string]*competency.Competenc
 
 	preContent := `<html>
 		<head>
-		<title>` + role.Title + `</title>
+		<title>` + role.Name + `</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<style type='text/css'>` + singleLine(styleData) + `</style>
 		<link rel="icon" href="seedling.png" type="image/png">
@@ -82,30 +83,30 @@ func generateHTML(role *role.Role, competencies map[string]*competency.Competenc
 
 func generateRoleHTML(role *role.Role, competencies map[string]*competency.Competency) (string, error) {
 	html := `<div class="skill-group p-4 bg-white shadow-xl mb-4 rounded-lg">`
-	for _, skill := range role.GetSkills() {
-		html += getSkillHTML(skill, competencies)
-	}
-	for _, group := range role.GetGroups() {
-		html += getGroupHTML(group, competencies)
-	}
-	html += "</div>"
+	// for _, skill := range role.GetSkills() {
+	// 	html += getSkillHTML(skill, competencies)
+	// }
+	// for _, group := range role.GetGroups() {
+	// 	html += getGroupHTML(group, competencies)
+	// }
+	// html += "</div>"
 
-	for _, inherited := range role.GetInheritedRoles() {
-		html += `<div class="skill-group p-4 bg-white shadow-xl mb-4 rounded-lg">`
-		html += `<h4 class="px-2 text-l mt-2">` + inherited.Title + `</h4>`
-		for _, skill := range inherited.GetSkills() {
-			html += getSkillHTML(skill, competencies)
-		}
-		for _, group := range inherited.GetGroups() {
-			html += getGroupHTML(group, competencies)
-		}
-		html += "</div>"
-	}
+	// for _, inherited := range role.GetInheritedRoles() {
+	// 	html += `<div class="skill-group p-4 bg-white shadow-xl mb-4 rounded-lg">`
+	// 	html += `<h4 class="px-2 text-l mt-2">` + inherited.Title + `</h4>`
+	// 	for _, skill := range inherited.GetSkills() {
+	// 		html += getSkillHTML(skill, competencies)
+	// 	}
+	// 	for _, group := range inherited.GetGroups() {
+	// 		html += getGroupHTML(group, competencies)
+	// 	}
+	// 	html += "</div>"
+	// }
 
 	return html, nil
 }
 
-func getSkillHTML(skill role.Skill, competencies map[string]*competency.Competency) string {
+func getSkillHTML(skill competency.Competency, competencies map[string]*competency.Competency) string {
 	html := ""
 	classes := ""
 	href := createHREF(skill.Name)
@@ -122,15 +123,16 @@ func getSkillHTML(skill role.Skill, competencies map[string]*competency.Competen
 	return html
 }
 
-func getGroupHTML(group role.Group, competencies map[string]*competency.Competency) string {
-	html := `<table class="group mt-4"><tr><td valign="top"><span class="group-heading text-sm pr-2 whitespace-no-wrap">` + nameLevelAndGroup(group.Name, group.Level, group.Amount) + `</span></td><td class="group" valign="top"> `
-	for n, c := range competencies {
-		if c.Group == group.Name {
-			html += getSkillHTML(role.Skill{Name: n, Level: group.Level, Filename: c.Filename}, competencies)
-		}
-	}
-	html += `</td></tr></table>`
-	return html
+func getGroupHTML(group group.Group, competencies map[string]*competency.Competency) string {
+	// html := `<table class="group mt-4"><tr><td valign="top"><span class="group-heading text-sm pr-2 whitespace-no-wrap">` + nameLevelAndGroup(group.Name, group.Level, group.Amount) + `</span></td><td class="group" valign="top"> `
+	// for n, c := range competencies {
+	// 	if c.Group == group.Name {
+	// 		html += getSkillHTML(role.Skill{Name: n, Level: group.Level, Filename: c.Filename}, competencies)
+	// 	}
+	// }
+	// html += `</td></tr></table>`
+	// return html
+	return ""
 }
 
 func tailwind(html []byte) []byte {
@@ -147,7 +149,7 @@ func name2Id(name string) string {
 	return "c-" + strings.ToLower(strings.ReplaceAll(strings.ReplaceAll(name, " ", ""), "-", ""))
 }
 
-func nameLevelAndGroup(name string, level int, groupAmount *role.GroupAmount) string {
+func nameLevelAndGroup(name string, level int, groupAmount *int) string {
 	lvlstr := ""
 	if level > 1 {
 		lvlstr = fmt.Sprintf(": level %d", level)
@@ -155,7 +157,7 @@ func nameLevelAndGroup(name string, level int, groupAmount *role.GroupAmount) st
 
 	grpstr := ""
 	if groupAmount != nil {
-		grpstr = fmt.Sprintf(" (%s of)", groupAmount)
+		grpstr = fmt.Sprintf(" (%d of)", groupAmount)
 	}
 
 	return fmt.Sprintf("%s%s%s", strings.ToLower(strings.TrimSpace(name)), lvlstr, grpstr)

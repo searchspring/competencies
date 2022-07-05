@@ -3,8 +3,9 @@ package patterns
 import "regexp"
 
 var (
-	Group           *regexp.Regexp = regexp.MustCompile(`^([0-9]+) of (.+)$`)
-	Competency      *regexp.Regexp = regexp.MustCompile(`^([^:\n\r]*)(:)?(\d+)?$`)
-	InheritsNode    *regexp.Regexp = regexp.MustCompile(`<inherit doc="([^"]+)"/>`)
-	SkillsContainer *regexp.Regexp = regexp.MustCompile(`(?s)<skills>([^<]+)</skills>`)
+	RoleTitle                    *regexp.Regexp = regexp.MustCompile(`^(?:# ){1}(.*)`)
+	Skills                       *regexp.Regexp = regexp.MustCompile(`(?m)^(\d+)?(?: of )?([^:\r\n]+)+(?::)?(\d+)?$`)
+	InheritNode                  *regexp.Regexp = regexp.MustCompile(`<inherit doc="([^"]+)"/>`)
+	SkillsContainer              *regexp.Regexp = regexp.MustCompile(`<skills>[\r\n]([^<]+)</skills>`)
+	CompetenciesContentsSplitter *regexp.Regexp = regexp.MustCompile(`(?m)^# `)
 )
