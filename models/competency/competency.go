@@ -5,9 +5,9 @@ import (
 	"strings"
 
 	"github.com/codeallthethingz/competencies/clients/file"
-	"github.com/codeallthethingz/competencies/patterns"
 )
 
+const mdHeader = "# "
 const DirPath string = "./competencies"
 
 type Competency struct {
@@ -24,12 +24,12 @@ func New(filename string) ([]Competency, error) {
 		return nil, err
 	}
 
-	for _, splitContents := range patterns.CompetenciesContentsSplitter.Split(allContents, -1) {
+	for _, splitContents := range strings.Split(allContents, "\n"+mdHeader) {
 		trimmedSplitContents := strings.TrimSpace(splitContents)
 		if trimmedSplitContents == "" {
 			continue
 		}
-		contents := "# " + trimmedSplitContents
+		contents := mdHeader + trimmedSplitContents
 
 		competency := &Competency{Filename: filename, Markdown: contents}
 		competency.Name = "asdas" // TODO: CONTINUE FROM HERE
