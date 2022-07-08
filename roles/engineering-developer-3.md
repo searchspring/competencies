@@ -29,7 +29,7 @@ Presentations
 Mentoring
 Meetings
 Athena:2
-Architecture:2
+Architecture
 Git:2
 Github:2
 Deployments:2
@@ -38,6 +38,7 @@ Part of Successful Projects:2
 5 of Technical Breadth
 1 of UI Framework
 1 of Database:2
+0 of Web API
 </skills>
 
 <inherit doc="engineering-developer-2.md"/>

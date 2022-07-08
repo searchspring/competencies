@@ -20,7 +20,7 @@ You have an insider knowledge of how to navigate the complexities of both US & C
 
  
 
-# Benefits Management Advanced
+# Benefits Management Level 2
 
 ## How do you prove it?
 

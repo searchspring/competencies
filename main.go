@@ -2,37 +2,38 @@ package main
 
 import (
 	"io/ioutil"
-	"log"
 	"strings"
 
+	"github.com/codeallthethingz/competencies/doc"
 	"github.com/codeallthethingz/competencies/extensions"
 	"github.com/codeallthethingz/competencies/models/competency"
 	"github.com/codeallthethingz/competencies/models/role"
+	log "github.com/sirupsen/logrus"
 )
 
 func main() {
-	_, err := getCompetencies()
+	competencies, err := getCompetencies()
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	_, err = getRoles()
+	roles, err := getRoles(competencies)
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	// if err := doc.Generate(competencies, roles); err != nil {
-	// 	log.Fatal(err)
-	// }
+	if err := doc.Generate(roles); err != nil {
+		log.Fatal(err)
+	}
 }
 
-func getCompetencies() (map[string]*competency.Competency, error) {
+func getCompetencies() ([]competency.Competency, error) {
 	files, err := ioutil.ReadDir(competency.DirPath)
 	if err != nil {
 		return nil, err
 	}
 
-	competencies := map[string]*competency.Competency{}
+	competencies := []competency.Competency{}
 	for _, file := range files {
 		fn := file.Name()
 		if !strings.HasSuffix(fn, extensions.Markdown) {
@@ -43,15 +44,13 @@ func getCompetencies() (map[string]*competency.Competency, error) {
 		if err != nil {
 			return nil, err
 		}
-		for _, c := range newCompetencies {
-			competencies[c.Key()] = &c
-		}
+		competencies = append(competencies, newCompetencies...)
 	}
 
 	return competencies, nil
 }
 
-func getRoles() (map[string]*role.Role, error) {
+func getRoles(competencies []competency.Competency) (map[string]*role.Role, error) {
 	files, err := ioutil.ReadDir(role.DirPath)
 	if err != nil {
 		return nil, err
@@ -70,7 +69,7 @@ func getRoles() (map[string]*role.Role, error) {
 			continue
 		}
 
-		role, err := role.New(fn)
+		role, err := role.New(fn, competencies)
 		if err != nil {
 			return nil, err
 		}

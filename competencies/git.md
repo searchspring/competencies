@@ -36,7 +36,7 @@ Conventional Commits - [https://www.conventionalcommits.org/](https://www.conven
 
 Bookmark - [https://ohshitgit.com/](https://ohshitgit.com/)
 
-# Git - Level 2
+# Git Level 2
 
 Have achieved all the things for the basic competency, are capable of solving advanced Git issues.
 

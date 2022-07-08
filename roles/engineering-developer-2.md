@@ -43,11 +43,11 @@ Prometheus
 Grafana
 Make
 TDD
-Elasticsearch Level 1
+Elasticsearch:1
 Part of Successful Projects:1
 Athena:1
 0 of Web API
-1 of Language
+1 of Language:1
 1 of IDE
 1 of Database:1
 </skills>

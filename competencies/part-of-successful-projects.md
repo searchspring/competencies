@@ -1,4 +1,4 @@
-# Part of Successful Projects
+# Part of Successful Projects Level 1
 
 Part of your job is to move the company in the right direction and this is usually in segments of work called projects.
 While we don't expect all your projects to be a success, we do expect you to be part of successful projects.  
@@ -23,18 +23,18 @@ during the life of the project
 - You have experiences raising the alarm when you think a project is at risk, talking with the project sponsors and team leads effectively 
 communicating what you think is at risk and how to work around the risk.
 
-## Level 2
+# Part of Successful Projects Level 2
 
-### How do you prove it?
+## How do you prove it?
 
 - You have been on 4 successful projects and can articulate why they were successful and what risks were mitigated 
 during the life of the project 
 
 - You have been on a disaster project and can articulate why it went off the rails.
 
-## Level 3
+# Part of Successful Projects Level 3
 
-### How do you prove it?
+## How do you prove it?
 
 - You have been on 6 successful projects and can articulate why they were successful and what risks were mitigated 
 during the life of the project 

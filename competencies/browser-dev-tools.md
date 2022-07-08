@@ -37,7 +37,7 @@ Read some articles:
 [https://webplatformcourse.com/bonus/devtools/](https://webplatformcourse.com/bonus/devtools/)  
 [https://www.trysmudford.com/blog/chrome-local-overrides/](https://www.trysmudford.com/blog/chrome-local-overrides/)  
 
-# Browser Dev Tools - Level 2
+# Browser Dev Tools Level 2
 
 Have achieved all the things for the basic competency, and know how to do more advanced debugging.
 

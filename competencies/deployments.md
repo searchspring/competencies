@@ -20,7 +20,7 @@ Logs:
 
 Read The Phoenix Project: [https://www.amazon.ca/Phoenix-Project-DevOps-Helping-Business/dp/0988262592](https://www.amazon.ca/Phoenix-Project-DevOps-Helping-Business/dp/0988262592)
 
-# Deployments - Level 2
+# Deployments Level 2
 
 ## How do you prove it?
 

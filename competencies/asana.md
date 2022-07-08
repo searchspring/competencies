@@ -28,7 +28,7 @@ Create task lists by copying all the people from the company directory
 
 Learn the keyboard shortcuts: https://asana.com/guide/help/faq/shortcuts
 
-## Asana - Level 2
+# Asana Level 2
 
 ## How do you prove it?
 
@@ -40,7 +40,7 @@ You can seamlessly create new board for projects, retire old ones, and move task
 
 You know how to use timeline and what it is good for.
 
-## Asana - Level 3
+# Asana Level 3
 
 ## How do you prove it?
 
