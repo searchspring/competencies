@@ -4,11 +4,11 @@ General skills needed to excel at Searchspring
 
 <skills>
 Human
-Empathy 
+Empathy
 Communication
 Community builder
 Recruiter
-Slack 
+Slack
 Asana
 Miro
 1Password
