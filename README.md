@@ -73,3 +73,10 @@ npx http-server docs
 ```
 
 Now go to http://localhost:8080
+
+## TODO:
+- consts for reused html parts
+- app.js does things that the go code does but slightly different like replacing the h1s
+- all the hire doc generation
+- html a href links are impossible to see, need to restyle
+- decide if html competencies are useful or not

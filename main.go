@@ -22,7 +22,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	if err := doc.Generate(roles); err != nil {
+	if err := doc.Generate(roles, competencies); err != nil {
 		log.Fatal(err)
 	}
 }
@@ -59,11 +59,6 @@ func getRoles(competencies []competency.Competency) (map[string]*role.Role, erro
 	roles := map[string]*role.Role{}
 	for _, file := range files {
 		fn := file.Name()
-
-		// TODO: REMOVE
-		if fn != "engineering-developer-3.md" {
-			continue
-		}
 
 		if !strings.HasSuffix(fn, extensions.Markdown) {
 			continue

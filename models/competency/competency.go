@@ -23,7 +23,6 @@ type Competency struct {
 	Missing   bool   `json:"Missing"`
 }
 
-// TODO: this does work that may not belong in new and it should only return one
 func New(filename string) ([]Competency, error) {
 	allContents, err := file.Read(DirPath, filename)
 	if err != nil {
