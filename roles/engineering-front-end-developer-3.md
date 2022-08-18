@@ -22,22 +22,23 @@ You enjoy working with others and helping mentor developers at all skill levels.
 
 <skills>
 Git:2
-Github:2 
-Github Actions
-Browser Dev Tools:2
-SASS CSS Preprocessor
+Github Actions:2
+Full Stack:2
+Docker
+Kubernetes
+Server Side Rendering
 Web API Service Worker
 Web API Web Worker
+GraphQL
 3 of Language:2
 4 of Technical Breadth
 3 of UI Framework
-1 of Design Tool
-Diagrams 
-Documentation 
-Presentations 
-Mentoring 
-Meetings
 Part of Successful Projects:2
+Diagrams
+Presentations
+Mentoring
+Meetings
+Writing Competencies
 </skills>
 
 <inherit doc="engineering-front-end-developer-2.md"/>

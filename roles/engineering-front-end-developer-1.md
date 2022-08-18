@@ -1,7 +1,7 @@
-# Engineering - Front-End Developer 2
+# Engineering - Front End Developer 1
 <welcome.snippet/>
 
-## What it's like to be Front-End Developer 2
+## What it's like to be Front-End Developer 1
 In this role, you will build software that utilizes technologies such as Javascript, React and Angular. Specifically, you, along with your team, will be developing our customer portal system, our client side interfaces, and client side libraries that act as a front end for our search API. There are an abundance of challenges, from building user interfaces for robust data configuration, to reporting visualizations, to internal tools that help every other employee in the company get the job done. 
 
 As a developer, you spend the first few minutes of the day, reviewing your inbox, asana tasks, outstanding code reviews to make sure you're not blocking anyone on your team.
@@ -25,30 +25,22 @@ You enjoy working with others and helping mentor developers at all skill levels.
 ## Skills that are important to this role
 
 <skills>
-Language Javascript Node
-Language Typescript
-Github:2
-Github Actions:1
-Front End:2
-Full Stack
-QA Automation
-Feature Flags
-Browser Dev Tools:2
-Jest
-Cypress
-Webpack
-2 of Technical Breadth
-2 of UI Framework
-1 of CSS Preprocessor
-1 of Design Tool
-Part of Successful Projects:1
-Documentation
-Deployments
-Fire Handling
-Customer Empathy
+Language Javascript
+Coding
+Linux
+Web APIs
+Front End
+CSS
+HTML
+Design Patterns
+Testing
+Browser Dev Tools:1
+1 of IDE
+1 of UI Framework
+1 of CSS Framework
 </skills>
 
-<inherit doc="engineering-front-end-developer-1.md"/>
+<inherit doc="engineering-base.md"/>
 
 <searchspring-overview.snippet/>
 
