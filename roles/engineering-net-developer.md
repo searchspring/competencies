@@ -23,35 +23,17 @@ You enjoy working with others and helping mentor developers at all skill levels.
 ## Skills that are important to this role
 
 <skills>
-Coding
 Language C Sharp:1
-Ide Rider
-Github Actions
-Deployments
-SQL
-Testing
-Linux
-QA Automation
-Fire Handling
-Docker
-Machine Learning
-Big Data
-Athena
-Customer Empathy
-Part of Successful Projects:1
-Prometheus
-Grafana
-TDD
+IDE Rider
 Azure Storage
 Azure Portal
 Azure Functions
 Azure Storage Explorer
 Nginx
 
-1 of DB
 </skills>
 
-<inherit doc="engineering-base.md"/>
+<inherit doc="engineering-full-stack-base.md"/>
 
 <searchspring-overview.snippet/>
 

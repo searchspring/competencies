@@ -9,6 +9,5 @@ The Azure Portal is a management console for interacting with the Azure Cloud.
 * Show an understanding of the cost management tool
 
 ## How do you improve it?
-* Ask for a tour of the portal
-* Poke around
+* Spend Time in the portal and read the help sections
 * https://docs.microsoft.com/en-us/azure/azure-portal/azure-portal-overview

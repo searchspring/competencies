@@ -26,4 +26,4 @@ https://en.wikipedia.org/wiki/C_Sharp_(programming_language)
 * Your code is memory efficient and takes advantage of lazy code execution
 
 ## How do you improve it?
-* Open many PRs
+* Open 20 PRs

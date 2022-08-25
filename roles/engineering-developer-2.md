@@ -23,37 +23,19 @@ You enjoy working with others and helping mentor developers at all skill levels.
 ## Skills that are important to this role
 
 <skills>
-Coding
 Feature Flags
-Github Actions
-Deployments
 OAuth
-SQL
-Testing
-Linux
-QA Automation
-Fire Handling
-Docker
 Launch Darkly
-Machine Learning
-Big Data
-Athena
 Elasticsearch Level 1
 Kubernetes
-Customer Empathy
-Part of Successful Projects:1
-Prometheus
-Grafana
 Make
-TDD
 Web API Service Worker
 Web API Web Worker
 1 of Language
 1 of IDE
-1 of DB
 </skills>
 
-<inherit doc="engineering-base.md"/>
+<inherit doc="engineering-full-stack-base.md"/>
 
 <searchspring-overview.snippet/>
 
