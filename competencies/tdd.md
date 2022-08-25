@@ -18,3 +18,4 @@ You can articulate good practices for assertions in your tests.
 Learn the Red Green Refactor cycle - https://www.youtube.com/watch?v=58jGpV2Cg50&t=2691s
 Learn about the transformation priority premise - https://www.youtube.com/watch?v=B93QezwTQpI
 Do some katas - https://kata-log.rocks/tdd.html
+Find out how you're probably doing it wrong - https://www.youtube.com/watch?v=EZ05e7EMOLM
