@@ -4,9 +4,10 @@ When writing code for the Web, there are a large number of Browser APIs availabl
 
 ## How do you prove it?
 
-You can explain how you've used some of the more commonly used APIs.
+* You can explain how you've used 5 of the more commonly used APIs.
+* You know the difference between a third party API and a browser API.
 
-## Commonly used APIs
+### Commonly used APIs
 
 * [XMLHttpRequest API](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
 * [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
@@ -20,7 +21,7 @@ You can explain how you've used some of the more commonly used APIs.
 * [Resize Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Resize_Observer_API)
 * [Performance API](https://developer.mozilla.org/en-US/docs/Web/API/Performance_API)
 
-## Check out some of these more interesting APIs
+### Check out some of these other interesting APIs
 
 * [Fullscreen API](https://developer.mozilla.org/en-US/docs/Web/API/Fullscreen_API)
 * [Gamepad API](https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API)
@@ -34,5 +35,7 @@ You can explain how you've used some of the more commonly used APIs.
 See a [full list of browser APIs](https://developer.mozilla.org/en-US/docs/Web/API).
 
 ## How do you improve it?
+
+Ensure your target browsers support the APIs by checking for support on https://caniuse.com/ - use polyfills when necessary.
 
 Experiment with some of the more interesting APIs and build something awesome.

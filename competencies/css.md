@@ -23,6 +23,6 @@ Cascading Style Sheets (CSS) is a simple language using in combination with HTML
 [Color Contrast](https://www.w3schools.com/accessibility/accessibility_color_contrast.php)  
 [CSS Variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)  
 
-## Related technologies
+### Related technologies
 [SASS](https://sass-lang.com/guide)  
 [Emotion](https://emotion.sh/docs/introduction)

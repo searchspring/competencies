@@ -17,6 +17,7 @@ HyperText Markup Language (HTML), is the standard markup language used for Web p
 ## How do you improve it?
 
 [Learn HTML](https://html.com/)  
+[Semantics in HTML](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html)  
 [Learn Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML)  
 [Learn Forms](https://developer.mozilla.org/en-US/docs/Learn/Forms)  
 [Tag Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)  

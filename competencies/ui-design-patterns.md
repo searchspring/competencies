@@ -4,9 +4,12 @@ Patterns are reusable solutions to commonly seen problems. UI design patterns co
 
 ## How do you prove it?
 
+* You understand why UI design patterns are used.
 * Talk about 5 different UI design patterns and when they are used.
+* You can recognize and identify common UI design patterns on popular websites.
+* You have utilized 3 or more of the common UI design patterns in a project.
 
-## Common Web UI design patterns
+### Common Web UI design patterns
 
 * Mobile friendly (hamburger menu, reachability, swiping, pull to refresh)
 * Top navigation menu (primary & secondary)
